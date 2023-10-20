@@ -2,12 +2,15 @@
 import argparse
 import os
 import sys
-
 from docparser.java import JavaAPIDocConverter
 from docparser.kotlin import KotlinAPIDocConverter
 from docparser.scala import ScalaAPIDocConverter
+from docparser.swift import SwiftAPIDocConverter
+
+# Configure the logging settings
 
 
+# Redirect IceCream's output to the log file
 def preprocess_args(args):
     # Some pre-processing to create the output directory.
 
@@ -24,7 +27,7 @@ def get_args():
     parser.add_argument(
         "--language",
         default="java",
-        choices=["java", "kotlin", "scala"],
+        choices=["java", "kotlin", "scala","swift"],
         help="Language associated with the given API docs"
     )
     parser.add_argument(
@@ -51,6 +54,7 @@ CONVERTERS = {
     "java": JavaAPIDocConverter,
     "kotlin": KotlinAPIDocConverter,
     "scala": ScalaAPIDocConverter,
+    "swift": SwiftAPIDocConverter
 }
 
 

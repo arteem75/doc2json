@@ -1,0 +1,2288 @@
+{
+  "frozen": "true",
+  "data_type": "struct",
+  "name": "String",
+  "type_parameters": "[]",
+  "methods": [
+    [
+      {
+        "name": "localizedStringWithFormat",
+        "type parameters": null,
+        "parameters": "String, CVarArg...",
+        "throws": "false",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "decodeCString",
+        "type parameters": "Encoding",
+        "parameters": "UnsafePointer<Encoding.CodeUnit>?, as: Encoding.Type, repairingInvalidCodeUnits: Bool, result: String, repairsMade: Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "write",
+        "type parameters": null,
+        "parameters": "String",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "write",
+        "type parameters": "Target",
+        "parameters": "to: inout Target",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "append",
+        "type parameters": null,
+        "parameters": "String",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "append",
+        "type parameters": null,
+        "parameters": "Character",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "append",
+        "type parameters": null,
+        "parameters": "contentsOf: String",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "append",
+        "type parameters": null,
+        "parameters": "contentsOf: Substring",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "append",
+        "type parameters": "S",
+        "parameters": "contentsOf: S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "append",
+        "type parameters": "S",
+        "parameters": "contentsOf: S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "reserveCapacity",
+        "type parameters": null,
+        "parameters": "Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "+",
+        "type parameters": null,
+        "parameters": "String, String",
+        "throws": "false",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "+=",
+        "type parameters": null,
+        "parameters": "inout String, String",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "+",
+        "type parameters": "Other",
+        "parameters": "Other, Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "+",
+        "type parameters": "Other",
+        "parameters": "Self, Other",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "+",
+        "type parameters": "Other",
+        "parameters": "Self, Other",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "+=",
+        "type parameters": "Other",
+        "parameters": "inout Self, Other",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "insert",
+        "type parameters": null,
+        "parameters": "Character, at: String.Index",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "insert",
+        "type parameters": null,
+        "parameters": "Self.Element, at: Self.Index",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "insert",
+        "type parameters": "C",
+        "parameters": "contentsOf: C, at: Self.Index",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "insert",
+        "type parameters": "S",
+        "parameters": "contentsOf: S, at: String.Index",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "replaceSubrange",
+        "type parameters": "C",
+        "parameters": "Range<String.Index>, with: C",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "replaceSubrange",
+        "type parameters": "C, R",
+        "parameters": "R, with: C",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "remove",
+        "type parameters": null,
+        "parameters": "at: String.Index",
+        "throws": "false",
+        "return_type": "Character",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "remove",
+        "type parameters": null,
+        "parameters": "at: Self.Index",
+        "throws": "false",
+        "return_type": "Self.Element",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeAll",
+        "type parameters": null,
+        "parameters": "keepingCapacity: Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeAll",
+        "type parameters": null,
+        "parameters": "where: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeFirst",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Self.Element",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeFirst",
+        "type parameters": null,
+        "parameters": "Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeLast",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Self.Element",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeLast",
+        "type parameters": null,
+        "parameters": "Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeSubrange",
+        "type parameters": "String.Index",
+        "parameters": "Range<String.Index>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeSubrange",
+        "type parameters": "Self.Index",
+        "parameters": "Range<Self.Index>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeSubrange",
+        "type parameters": "R",
+        "parameters": "R",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "filter",
+        "type parameters": null,
+        "parameters": "(Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "drop",
+        "type parameters": null,
+        "parameters": "while: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "dropFirst",
+        "type parameters": null,
+        "parameters": "Int",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "dropLast",
+        "type parameters": null,
+        "parameters": "Int",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "popLast",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Self.Element?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "lowercased",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "uppercased",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "==",
+        "type parameters": null,
+        "parameters": "String, String",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "==",
+        "type parameters": "RHS",
+        "parameters": "Self, RHS",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "!=",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "!=",
+        "type parameters": "RHS",
+        "parameters": "Self, RHS",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "~=",
+        "type parameters": null,
+        "parameters": "String, Substring",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "elementsEqual",
+        "type parameters": "OtherSequence",
+        "parameters": "OtherSequence",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "elementsEqual",
+        "type parameters": "OtherSequence",
+        "parameters": "OtherSequence, by: (Self.Element, OtherSequence.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "starts",
+        "type parameters": "PossiblePrefix",
+        "parameters": "with: PossiblePrefix",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "starts",
+        "type parameters": "PossiblePrefix",
+        "parameters": "with: PossiblePrefix, by: (Self.Element, PossiblePrefix.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "lexicographicallyPrecedes",
+        "type parameters": "OtherSequence",
+        "parameters": "OtherSequence",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "lexicographicallyPrecedes",
+        "type parameters": "OtherSequence",
+        "parameters": "OtherSequence, by: (Self.Element, Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "applying",
+        "type parameters": "Self.Element",
+        "parameters": "CollectionDifference<Self.Element>",
+        "throws": "false",
+        "return_type": "Self?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "difference",
+        "type parameters": "C",
+        "parameters": "from: C",
+        "throws": "false",
+        "return_type": "CollectionDifference<Self.Element>",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "difference",
+        "type parameters": "C",
+        "parameters": "from: C, by: (C.Element, Self.Element) -> Bool",
+        "throws": "false",
+        "return_type": "CollectionDifference<Self.Element>",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "hasPrefix",
+        "type parameters": null,
+        "parameters": "String",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "hasSuffix",
+        "type parameters": null,
+        "parameters": "String",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "contains",
+        "type parameters": null,
+        "parameters": "Self.Element",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "allSatisfy",
+        "type parameters": null,
+        "parameters": "(Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "contains",
+        "type parameters": null,
+        "parameters": "where: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "first",
+        "type parameters": null,
+        "parameters": "where: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "firstIndex",
+        "type parameters": null,
+        "parameters": "of: Self.Element",
+        "throws": "false",
+        "return_type": "Self.Index?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "firstIndex",
+        "type parameters": null,
+        "parameters": "where: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.Index?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "last",
+        "type parameters": null,
+        "parameters": "where: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "lastIndex",
+        "type parameters": null,
+        "parameters": "of: Self.Element",
+        "throws": "false",
+        "return_type": "Self.Index?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "lastIndex",
+        "type parameters": null,
+        "parameters": "where: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.Index?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "max",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Self.Element?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "max",
+        "type parameters": "T",
+        "parameters": "T, T",
+        "throws": "false",
+        "return_type": "T",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "max",
+        "type parameters": null,
+        "parameters": "by: (Self.Element, Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "min",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Self.Element?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "min",
+        "type parameters": "T",
+        "parameters": "T, T",
+        "throws": "false",
+        "return_type": "T",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "min",
+        "type parameters": null,
+        "parameters": "by: (Self.Element, Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "prefix",
+        "type parameters": null,
+        "parameters": "Int",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "prefix",
+        "type parameters": null,
+        "parameters": "through: Self.Index",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "prefix",
+        "type parameters": null,
+        "parameters": "upTo: Self.Index",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "prefix",
+        "type parameters": null,
+        "parameters": "while: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "suffix",
+        "type parameters": null,
+        "parameters": "Int",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "suffix",
+        "type parameters": null,
+        "parameters": "from: Self.Index",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "split",
+        "type parameters": null,
+        "parameters": "separator: Self.Element, maxSplits: Int, omittingEmptySubsequences: Bool",
+        "throws": "false",
+        "return_type": "[Self.SubSequence]",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "split",
+        "type parameters": null,
+        "parameters": "maxSplits: Int, omittingEmptySubsequences: Bool, whereSeparator: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "[Self.SubSequence]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "randomElement",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "randomElement",
+        "type parameters": "T",
+        "parameters": "using: inout T",
+        "throws": "false",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "localizedName",
+        "type parameters": null,
+        "parameters": "of: String.Encoding",
+        "throws": "false",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "makeContiguousUTF8",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "withUTF8",
+        "type parameters": "R",
+        "parameters": "(UnsafeBufferPointer<UInt8>) throws -> R",
+        "throws": "true",
+        "return_type": "R",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "map",
+        "type parameters": "T",
+        "parameters": "(Self.Element) throws -> T",
+        "throws": "true",
+        "return_type": "[T]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "compactMap",
+        "type parameters": "ElementOfResult",
+        "parameters": "(Self.Element) throws -> ElementOfResult?",
+        "throws": "true",
+        "return_type": "[ElementOfResult]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "flatMap",
+        "type parameters": "SegmentOfResult",
+        "parameters": "(Self.Element) throws -> SegmentOfResult",
+        "throws": "true",
+        "return_type": "[SegmentOfResult.Element]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "flatMap",
+        "type parameters": "ElementOfResult",
+        "parameters": "(Self.Element) throws -> ElementOfResult?",
+        "throws": "true",
+        "return_type": "[ElementOfResult]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "reduce",
+        "type parameters": "Result",
+        "parameters": "Result, (Result, Self.Element) throws -> Result",
+        "throws": "true",
+        "return_type": "Result",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "reduce",
+        "type parameters": "Result",
+        "parameters": "into: Result, (inout Result, Self.Element) throws -> ()",
+        "throws": "true",
+        "return_type": "Result",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "forEach",
+        "type parameters": null,
+        "parameters": "(Self.Element) throws -> Void",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "enumerated",
+        "type parameters": "Self",
+        "parameters": "",
+        "throws": "false",
+        "return_type": "EnumeratedSequence<Self>",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "makeIterator",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "String.Iterator",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "sorted",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "[Self.Element]",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "sorted",
+        "type parameters": null,
+        "parameters": "by: (Self.Element, Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "[Self.Element]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "reversed",
+        "type parameters": "Self",
+        "parameters": "",
+        "throws": "false",
+        "return_type": "ReversedCollection<Self>",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "shuffled",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "[Self.Element]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "shuffled",
+        "type parameters": "T",
+        "parameters": "using: inout T",
+        "throws": "false",
+        "return_type": "[Self.Element]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "withCString",
+        "type parameters": "Result",
+        "parameters": "(UnsafePointer<Int8>) throws -> Result",
+        "throws": "true",
+        "return_type": "Result",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "withCString",
+        "type parameters": "Result, TargetEncoding",
+        "parameters": "encodedAs: TargetEncoding.Type, (UnsafePointer<TargetEncoding.CodeUnit>) throws -> Result",
+        "throws": "true",
+        "return_type": "Result",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "index",
+        "type parameters": null,
+        "parameters": "after: String.Index",
+        "throws": "false",
+        "return_type": "String.Index",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formIndex",
+        "type parameters": null,
+        "parameters": "after: inout Self.Index",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "index",
+        "type parameters": null,
+        "parameters": "before: String.Index",
+        "throws": "false",
+        "return_type": "String.Index",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formIndex",
+        "type parameters": null,
+        "parameters": "before: inout Self.Index",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "index",
+        "type parameters": null,
+        "parameters": "String.Index, offsetBy: Int",
+        "throws": "false",
+        "return_type": "String.Index",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "index",
+        "type parameters": null,
+        "parameters": "String.Index, offsetBy: Int, limitedBy: String.Index",
+        "throws": "false",
+        "return_type": "String.Index?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formIndex",
+        "type parameters": null,
+        "parameters": "inout Self.Index, offsetBy: Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formIndex",
+        "type parameters": null,
+        "parameters": "inout Self.Index, offsetBy: Int, limitedBy: Self.Index",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "distance",
+        "type parameters": null,
+        "parameters": "from: String.Index, to: String.Index",
+        "throws": "false",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "init",
+        "type parameters": "Self",
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "ClosedRange<Self>",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Self",
+        "parameters": "Self",
+        "throws": "false",
+        "return_type": "PartialRangeThrough<Self>",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Self",
+        "parameters": "Self",
+        "throws": "false",
+        "return_type": "PartialRangeFrom<Self>",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "true"
+      },
+      {
+        "name": "encode",
+        "type parameters": null,
+        "parameters": "to: Encoder",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "hash",
+        "type parameters": null,
+        "parameters": "into: inout Hasher",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "index",
+        "type parameters": null,
+        "parameters": "of: Self.Element",
+        "throws": "false",
+        "return_type": "Self.Index?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "withContiguousStorageIfAvailable",
+        "type parameters": "R",
+        "parameters": "(UnsafeBufferPointer<Self.Element>) throws -> R",
+        "throws": "true",
+        "return_type": "R?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "withMutableCharacters",
+        "type parameters": "R",
+        "parameters": "(inout String) -> R",
+        "throws": "false",
+        "return_type": "R",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "withPlatformString",
+        "type parameters": "Result",
+        "parameters": "(UnsafePointer<CInterop.PlatformChar>) throws -> Result",
+        "throws": "true",
+        "return_type": "Result",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "decodeCString",
+        "type parameters": "Encoding",
+        "parameters": "[Encoding.CodeUnit], as: Encoding.Type, repairingInvalidCodeUnits: Bool, result: String, repairsMade: Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      }
+    ],
+    [
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "decoding: FilePath",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "Character",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "S",
+        "parameters": "S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "S",
+        "parameters": "S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "S",
+        "parameters": "S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "Substring",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "repeating: String, count: Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "repeating: Character, count: Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "UInt8",
+        "parameters": "unsafeUninitializedCapacity: Int, initializingUTF8With: (UnsafeMutableBufferPointer<UInt8>) throws -> Int",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "Unicode.Scalar",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "data: Data, encoding: String.Encoding",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "CChar",
+        "parameters": "validatingUTF8: UnsafePointer<CChar>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "unichar",
+        "parameters": "utf16CodeUnits: UnsafePointer<unichar>, count: Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "unichar",
+        "parameters": "utf16CodeUnitsNoCopy: UnsafePointer<unichar>, count: Int, freeWhenDone: Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "C, Encoding",
+        "parameters": "decoding: C, as: Encoding.Type",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "format: String, CVarArg...",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "format: String, arguments: [CVarArg]",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "format: String, locale: Locale?, CVarArg...",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "format: String, locale: Locale?, arguments: [CVarArg]",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "T",
+        "parameters": "T, radix: Int, uppercase: Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "S",
+        "parameters": "bytes: S, encoding: String.Encoding",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "bytesNoCopy: UnsafeMutableRawPointer, length: Int, encoding: String.Encoding, freeWhenDone: Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "CChar",
+        "parameters": "cString: UnsafePointer<CChar>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "UInt8",
+        "parameters": "cString: UnsafePointer<UInt8>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Encoding",
+        "parameters": "decodingCString: [Encoding.CodeUnit], as: Encoding.Type",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "T",
+        "parameters": "T",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Subject",
+        "parameters": "describing: Subject",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Subject",
+        "parameters": "describing: Subject",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Subject",
+        "parameters": "describing: Subject",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Subject",
+        "parameters": "describing: Subject",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Subject",
+        "parameters": "reflecting: Subject",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "contentsOf: URL",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "contentsOf: URL, encoding: String.Encoding",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "contentsOf: URL, usedEncoding: inout String.Encoding",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "contentsOfFile: String",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "contentsOfFile: String, encoding: String.Encoding",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "contentsOfFile: String, usedEncoding: inout String.Encoding",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "String.UnicodeScalarView",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "Substring.UnicodeScalarView",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "String.UTF16View",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "Substring.UTF16View",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "String.UTF8View",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "Substring.UTF8View",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "FilePath",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "validatingUTF8: FilePath",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "from: Decoder",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "from: MLDataValue",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "NSString",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "stringInterpolation: DefaultStringInterpolation",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "stringLiteral: String",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "unicodeScalarLiteral: Self.ExtendedGraphemeClusterLiteralType",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "extendedGraphemeClusterLiteral: Self.StringLiteralType",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "AttributedString.CharacterView",
+        "parameters": "Slice<AttributedString.CharacterView>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "cString: [UInt8]",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "cString: [CChar]",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "cString: [CChar], encoding: String.Encoding",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "CChar",
+        "parameters": "cString: UnsafePointer<CChar>, encoding: String.Encoding",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "decoding: FilePath.Root",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "decoding: FilePath.Component",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "localized: LocalizedStringResource",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "localized: StaticString, defaultValue: String.LocalizationValue, options: String.LocalizationOptions, table: String?, bundle: Bundle?, locale: Locale, comment: StaticString?",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "localized: StaticString, defaultValue: String.LocalizationValue, table: String?, bundle: Bundle?, locale: Locale, comment: StaticString?",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "localized: LocalizedStringResource, options: String.LocalizationOptions",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "localized: String.LocalizationValue, options: String.LocalizationOptions, table: String?, bundle: Bundle?, locale: Locale, comment: StaticString?",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "localized: String.LocalizationValue, table: String?, bundle: Bundle?, locale: Locale, comment: StaticString?",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "CInterop.PlatformChar",
+        "parameters": "platformString: UnsafePointer<CInterop.PlatformChar>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "platformString: [CInterop.PlatformChar]",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "CChar",
+        "parameters": "utf8String: UnsafePointer<CChar>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "utf8String: [CChar]",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "validating: FilePath.Root",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "validating: FilePath.Component",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "validating: FilePath",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "CInterop.PlatformChar",
+        "parameters": "validatingPlatformString: UnsafePointer<CInterop.PlatformChar>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "validatingPlatformString: [CInterop.PlatformChar]",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "validatingUTF8: [CChar]",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      }
+    ]
+  ],
+  "fields": [
+    [
+      {
+        "name": "isEmpty",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "count",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "first",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "last",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "availableStringEncodings",
+        "return_type": "[String.Encoding]",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "defaultCStringEncoding",
+        "return_type": "String.Encoding",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "isContiguousUTF8",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "unicodeScalars",
+        "return_type": "String.UnicodeScalarView",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "utf16",
+        "return_type": "String.UTF16View",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "utf8",
+        "return_type": "String.UTF8View",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "lazy",
+        "return_type": "LazySequence<Self>",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "underestimatedCount",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "utf8CString",
+        "return_type": "ContiguousArray<CChar>",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "startIndex",
+        "return_type": "String.Index",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "endIndex",
+        "return_type": "String.Index",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "indices",
+        "return_type": "DefaultIndices<Self>",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "description",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "debugDescription",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "customMirror",
+        "return_type": "Mirror",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "hashValue",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "dataValue",
+        "return_type": "MLDataValue",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "identifierValue",
+        "return_type": "MLDataValue",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "dataValueType",
+        "return_type": "MLDataValue.ValueType",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "characters",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false"
+      }
+    ]
+  ],
+  "conforms_to": [
+    [
+      {
+        "name": "BidirectionalCollection",
+        "conditional": "false"
+      },
+      {
+        "name": "BindableData",
+        "conditional": "false"
+      },
+      {
+        "name": "CVarArg",
+        "conditional": "false"
+      },
+      {
+        "name": "CodingKeyRepresentable",
+        "conditional": "false"
+      },
+      {
+        "name": "Collection",
+        "conditional": "false"
+      },
+      {
+        "name": "Comparable",
+        "conditional": "false"
+      },
+      {
+        "name": "CustomDebugStringConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "CustomReflectable",
+        "conditional": "false"
+      },
+      {
+        "name": "CustomStringConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "Decodable",
+        "conditional": "false"
+      },
+      {
+        "name": "Encodable",
+        "conditional": "false"
+      },
+      {
+        "name": "EntityIdentifierConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "Equatable",
+        "conditional": "false"
+      },
+      {
+        "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+        "conditional": "false"
+      },
+      {
+        "name": "ExpressibleByStringInterpolation",
+        "conditional": "false"
+      },
+      {
+        "name": "ExpressibleByStringLiteral",
+        "conditional": "false"
+      },
+      {
+        "name": "ExpressibleByUnicodeScalarLiteral",
+        "conditional": "false"
+      },
+      {
+        "name": "Hashable",
+        "conditional": "false"
+      },
+      {
+        "name": "LosslessStringConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "MLDataValueConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "MLIdentifier",
+        "conditional": "false"
+      },
+      {
+        "name": "MirrorPath",
+        "conditional": "false"
+      },
+      {
+        "name": "MusicLibraryRequestFilterValueEquatable",
+        "conditional": "false"
+      },
+      {
+        "name": "Plottable",
+        "conditional": "false"
+      },
+      {
+        "name": "PrimitivePlottableProtocol",
+        "conditional": "false"
+      },
+      {
+        "name": "RangeReplaceableCollection",
+        "conditional": "false"
+      },
+      {
+        "name": "RegexComponent",
+        "conditional": "false"
+      },
+      {
+        "name": "Sendable",
+        "conditional": "false"
+      },
+      {
+        "name": "Sequence",
+        "conditional": "false"
+      },
+      {
+        "name": "StringProtocol",
+        "conditional": "false"
+      },
+      {
+        "name": "TextOutputStream",
+        "conditional": "false"
+      },
+      {
+        "name": "TextOutputStreamable",
+        "conditional": "false"
+      },
+      {
+        "name": "Transferable",
+        "conditional": "false"
+      }
+    ]
+  ],
+  "typealiases": [
+    [
+      {
+        "name": "CharacterView",
+        "conditional": "false"
+      },
+      {
+        "name": "CompareOptions",
+        "conditional": "false"
+      },
+      {
+        "name": "EncodingConversionOptions",
+        "conditional": "false"
+      },
+      {
+        "name": "EnumerationOptions",
+        "conditional": "false"
+      },
+      {
+        "name": "Output",
+        "conditional": "false"
+      },
+      {
+        "name": "UnicodeScalarIndex",
+        "conditional": "false"
+      }
+    ]
+  ],
+  "inherits": [
+    []
+  ],
+  "language": "swift"
+}

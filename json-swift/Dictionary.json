@@ -1,0 +1,662 @@
+{
+  "frozen": "true",
+  "data_type": "struct",
+  "name": "Dictionary",
+  "type_parameters": "['Key', 'Value']",
+  "methods": [
+    [
+      {
+        "name": "index",
+        "type parameters": "Key, Value",
+        "parameters": "forKey: Key",
+        "throws": "false",
+        "return_type": "Dictionary<Key, Value>.Index?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "randomElement",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "randomElement",
+        "type parameters": "T",
+        "parameters": "using: inout T",
+        "throws": "false",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "updateValue",
+        "type parameters": null,
+        "parameters": "Value, forKey: Key",
+        "throws": "false",
+        "return_type": "Value?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "merge",
+        "type parameters": null,
+        "parameters": "[Key : Value], uniquingKeysWith: (Value, Value) throws -> Value",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "merge",
+        "type parameters": "S",
+        "parameters": "S, uniquingKeysWith: (Value, Value) throws -> Value",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "merging",
+        "type parameters": null,
+        "parameters": "[Key : Value], uniquingKeysWith: (Value, Value) throws -> Value",
+        "throws": "true",
+        "return_type": "[Key : Value]",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "merging",
+        "type parameters": "S",
+        "parameters": "S, uniquingKeysWith: (Value, Value) throws -> Value",
+        "throws": "true",
+        "return_type": "[Key : Value]",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "reserveCapacity",
+        "type parameters": null,
+        "parameters": "Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "filter",
+        "type parameters": "Key, Value",
+        "parameters": "(Dictionary<Key, Value>.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "[Key : Value]",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeValue",
+        "type parameters": null,
+        "parameters": "forKey: Key",
+        "throws": "false",
+        "return_type": "Value?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "remove",
+        "type parameters": "Key, Value",
+        "parameters": "at: Dictionary<Key, Value>.Index",
+        "throws": "false",
+        "return_type": "Dictionary<Key, Value>.Element",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "removeAll",
+        "type parameters": null,
+        "parameters": "keepingCapacity: Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "==",
+        "type parameters": null,
+        "parameters": "[Key : Value], [Key : Value]",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "true",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "!=",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "forEach",
+        "type parameters": null,
+        "parameters": "(Self.Element) throws -> Void",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "enumerated",
+        "type parameters": "Self",
+        "parameters": "",
+        "throws": "false",
+        "return_type": "EnumeratedSequence<Self>",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "makeIterator",
+        "type parameters": "Key, Value",
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Dictionary<Key, Value>.Iterator",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "contains",
+        "type parameters": null,
+        "parameters": "where: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "allSatisfy",
+        "type parameters": null,
+        "parameters": "(Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "first",
+        "type parameters": null,
+        "parameters": "where: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "firstIndex",
+        "type parameters": null,
+        "parameters": "where: (Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.Index?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "min",
+        "type parameters": null,
+        "parameters": "by: (Self.Element, Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "max",
+        "type parameters": null,
+        "parameters": "by: (Self.Element, Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "mapValues",
+        "type parameters": "T",
+        "parameters": "(Value) throws -> T",
+        "throws": "true",
+        "return_type": "Dictionary<Key, T>",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "reduce",
+        "type parameters": "Result",
+        "parameters": "Result, (Result, Self.Element) throws -> Result",
+        "throws": "true",
+        "return_type": "Result",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "reduce",
+        "type parameters": "Result",
+        "parameters": "into: Result, (inout Result, Self.Element) throws -> ()",
+        "throws": "true",
+        "return_type": "Result",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "map",
+        "type parameters": "T",
+        "parameters": "(Self.Element) throws -> T",
+        "throws": "true",
+        "return_type": "[T]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "compactMap",
+        "type parameters": "ElementOfResult",
+        "parameters": "(Self.Element) throws -> ElementOfResult?",
+        "throws": "true",
+        "return_type": "[ElementOfResult]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "compactMapValues",
+        "type parameters": "T",
+        "parameters": "(Value) throws -> T?",
+        "throws": "true",
+        "return_type": "Dictionary<Key, T>",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "flatMap",
+        "type parameters": "SegmentOfResult",
+        "parameters": "(Self.Element) throws -> SegmentOfResult",
+        "throws": "true",
+        "return_type": "[SegmentOfResult.Element]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "flatMap",
+        "type parameters": "ElementOfResult",
+        "parameters": "(Self.Element) throws -> ElementOfResult?",
+        "throws": "true",
+        "return_type": "[ElementOfResult]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "sorted",
+        "type parameters": null,
+        "parameters": "by: (Self.Element, Self.Element) throws -> Bool",
+        "throws": "true",
+        "return_type": "[Self.Element]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "shuffled",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "[Self.Element]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "shuffled",
+        "type parameters": "T",
+        "parameters": "using: inout T",
+        "throws": "false",
+        "return_type": "[Self.Element]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "encode",
+        "type parameters": null,
+        "parameters": "to: Encoder",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "hash",
+        "type parameters": null,
+        "parameters": "into: inout Hasher",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      }
+    ],
+    [
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "minimumCapacity: Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "S",
+        "parameters": "uniqueKeysWithValues: S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "S",
+        "parameters": "S, uniquingKeysWith: (Value, Value) throws -> Value",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "S",
+        "parameters": "grouping: S, by: (S.Element) throws -> Key",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "from: Decoder",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "from: MLDataValue.DictionaryType",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "from: MLDataValue",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "S",
+        "parameters": "AttributeContainer, including: S.Type",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "S",
+        "parameters": "AttributeContainer, including: KeyPath<AttributeScopes, S.Type>",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "AttributeContainer",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "dictionaryLiteral: (Key, Value)...",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      }
+    ]
+  ],
+  "fields": [
+    [
+      {
+        "name": "isEmpty",
+        "return_type": "Bool",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "count",
+        "return_type": "Int",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "capacity",
+        "return_type": "Int",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "keys",
+        "return_type": "Dictionary<Key, Value>.Keys",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "values",
+        "return_type": "Dictionary<Key, Value>.Values",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "first",
+        "return_type": "Self.Element?",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "lazy",
+        "return_type": "LazySequence<Self>",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "underestimatedCount",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "description",
+        "return_type": "String",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "debugDescription",
+        "return_type": "String",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "customMirror",
+        "return_type": "Mirror",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "dataValue",
+        "return_type": "MLDataValue",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "dataValueType",
+        "return_type": "MLDataValue.ValueType",
+        "conditional": "true",
+        "static": "true"
+      },
+      {
+        "name": "hashValue",
+        "return_type": "Int",
+        "conditional": "true",
+        "static": "false"
+      }
+    ]
+  ],
+  "conforms_to": [
+    [
+      {
+        "name": "MLDataValueConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "CVarArg",
+        "conditional": "true"
+      },
+      {
+        "name": "Collection",
+        "conditional": "true"
+      },
+      {
+        "name": "CustomDebugStringConvertible",
+        "conditional": "true"
+      },
+      {
+        "name": "CustomReflectable",
+        "conditional": "true"
+      },
+      {
+        "name": "CustomStringConvertible",
+        "conditional": "true"
+      },
+      {
+        "name": "Decodable",
+        "conditional": "true"
+      },
+      {
+        "name": "Encodable",
+        "conditional": "true"
+      },
+      {
+        "name": "Equatable",
+        "conditional": "true"
+      },
+      {
+        "name": "ExpressibleByDictionaryLiteral",
+        "conditional": "true"
+      },
+      {
+        "name": "Hashable",
+        "conditional": "true"
+      },
+      {
+        "name": "Sendable",
+        "conditional": "true"
+      },
+      {
+        "name": "Sequence",
+        "conditional": "true"
+      }
+    ]
+  ],
+  "typealiases": [
+    [
+      {
+        "name": "Indices",
+        "conditional": "true"
+      },
+      {
+        "name": "Element",
+        "conditional": "false"
+      }
+    ]
+  ],
+  "inherits": [
+    []
+  ],
+  "language": "swift"
+}

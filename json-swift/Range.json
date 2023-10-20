@@ -1,0 +1,389 @@
+{
+  "frozen": "true",
+  "data_type": "struct",
+  "name": "Range",
+  "type_parameters": "['Bound']",
+  "methods": [
+    [
+      {
+        "name": "init",
+        "type parameters": " (Self, Self) -",
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Range<Self>",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "true"
+      },
+      {
+        "name": "relative",
+        "type parameters": "C",
+        "parameters": "to: C",
+        "throws": "false",
+        "return_type": "Range<Bound>",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "contains",
+        "type parameters": null,
+        "parameters": "Bound",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "~=",
+        "type parameters": null,
+        "parameters": "Self, Self.Bound",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "clamped",
+        "type parameters": "Bound",
+        "parameters": "to: Range<Bound>",
+        "throws": "false",
+        "return_type": "Range<Bound>",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "==",
+        "type parameters": "Bound",
+        "parameters": "Range<Bound>, Range<Bound>",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "true",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "!=",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "overlaps",
+        "type parameters": "Bound",
+        "parameters": "Range<Bound>",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "overlaps",
+        "type parameters": "Bound",
+        "parameters": "ClosedRange<Bound>",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "hash",
+        "type parameters": null,
+        "parameters": "into: inout Hasher",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "encode",
+        "type parameters": null,
+        "parameters": "to: Encoder",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formatted",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "String",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formatted",
+        "type parameters": "S",
+        "parameters": "S",
+        "throws": "false",
+        "return_type": "S.FormatOutput",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formatted",
+        "type parameters": null,
+        "parameters": "date: Date.IntervalFormatStyle.DateStyle, time: Date.IntervalFormatStyle.TimeStyle",
+        "throws": "false",
+        "return_type": "String",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "upToNextMajor",
+        "type parameters": "Bound",
+        "parameters": "from: Version",
+        "throws": "false",
+        "return_type": "Range<Bound>",
+        "conditional": "true",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "upToNextMinor",
+        "type parameters": "Bound",
+        "parameters": "from: Version",
+        "throws": "false",
+        "return_type": "Range<Bound>",
+        "conditional": "true",
+        "static": "true",
+        "is_constructor": "false"
+      }
+    ],
+    [
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "NSRange, in: String",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "S",
+        "parameters": "NSRange, in: S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "NSRange",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "NSRange",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "from: Decoder",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "uncheckedBounds: (lower: Bound, upper: Bound)",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Bound",
+        "parameters": "Range<Bound>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Bound",
+        "parameters": "ClosedRange<Bound>",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "S",
+        "parameters": "NSRange, in: S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "R, S",
+        "parameters": "R, in: S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "R, S",
+        "parameters": "R, in: S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "S",
+        "parameters": "AttributedString.MarkdownSourcePosition, in: S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      }
+    ]
+  ],
+  "fields": [
+    [
+      {
+        "name": "isEmpty",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "description",
+        "return_type": "String",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "debugDescription",
+        "return_type": "String",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "customMirror",
+        "return_type": "Mirror",
+        "conditional": "true",
+        "static": "false"
+      },
+      {
+        "name": "hashValue",
+        "return_type": "Int",
+        "conditional": "true",
+        "static": "false"
+      }
+    ]
+  ],
+  "conforms_to": [
+    [
+      {
+        "name": "BidirectionalCollection",
+        "conditional": "true"
+      },
+      {
+        "name": "Collection",
+        "conditional": "true"
+      },
+      {
+        "name": "CustomDebugStringConvertible",
+        "conditional": "true"
+      },
+      {
+        "name": "CustomReflectable",
+        "conditional": "true"
+      },
+      {
+        "name": "CustomStringConvertible",
+        "conditional": "true"
+      },
+      {
+        "name": "Decodable",
+        "conditional": "true"
+      },
+      {
+        "name": "Encodable",
+        "conditional": "true"
+      },
+      {
+        "name": "Equatable",
+        "conditional": "true"
+      },
+      {
+        "name": "Hashable",
+        "conditional": "true"
+      },
+      {
+        "name": "RandomAccessCollection",
+        "conditional": "true"
+      },
+      {
+        "name": "RangeExpression",
+        "conditional": "true"
+      },
+      {
+        "name": "Sendable",
+        "conditional": "true"
+      },
+      {
+        "name": "Sequence",
+        "conditional": "true"
+      }
+    ]
+  ],
+  "typealiases": [
+    []
+  ],
+  "inherits": [
+    []
+  ],
+  "language": "swift"
+}

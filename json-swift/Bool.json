@@ -1,0 +1,299 @@
+{
+  "frozen": "true",
+  "data_type": "struct",
+  "name": "Bool",
+  "type_parameters": "[]",
+  "methods": [
+    [
+      {
+        "name": "==",
+        "type parameters": null,
+        "parameters": "Bool, Bool",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "!=",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "toggle",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "!",
+        "type parameters": null,
+        "parameters": "Bool",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "&&",
+        "type parameters": null,
+        "parameters": "Bool, () throws -> Bool",
+        "throws": "true",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "random",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "random",
+        "type parameters": "T",
+        "parameters": "using: inout T",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "hash",
+        "type parameters": null,
+        "parameters": "into: inout Hasher",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "encode",
+        "type parameters": null,
+        "parameters": "to: Encoder",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "||",
+        "type parameters": null,
+        "parameters": "Bool, () throws -> Bool",
+        "throws": "true",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      }
+    ],
+    [
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "String",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "NSNumber",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "exactly: NSNumber",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "truncating: NSNumber",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "from: Decoder",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "from: MLDataValue",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "booleanLiteral: Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      }
+    ]
+  ],
+  "fields": [
+    [
+      {
+        "name": "description",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "customMirror",
+        "return_type": "Mirror",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "hashValue",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "dataValue",
+        "return_type": "MLDataValue",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "dataValueType",
+        "return_type": "MLDataValue.ValueType",
+        "conditional": "false",
+        "static": "true"
+      }
+    ]
+  ],
+  "conforms_to": [
+    [
+      {
+        "name": "BindableData",
+        "conditional": "false"
+      },
+      {
+        "name": "CVarArg",
+        "conditional": "false"
+      },
+      {
+        "name": "CustomReflectable",
+        "conditional": "false"
+      },
+      {
+        "name": "CustomStringConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "Decodable",
+        "conditional": "false"
+      },
+      {
+        "name": "Encodable",
+        "conditional": "false"
+      },
+      {
+        "name": "Equatable",
+        "conditional": "false"
+      },
+      {
+        "name": "ExpressibleByBooleanLiteral",
+        "conditional": "false"
+      },
+      {
+        "name": "Hashable",
+        "conditional": "false"
+      },
+      {
+        "name": "LosslessStringConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "MLDataValueConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "MusicLibraryRequestFilterValueEquatable",
+        "conditional": "false"
+      },
+      {
+        "name": "Sendable",
+        "conditional": "false"
+      }
+    ]
+  ],
+  "typealiases": [
+    []
+  ],
+  "inherits": [
+    []
+  ],
+  "language": "swift"
+}

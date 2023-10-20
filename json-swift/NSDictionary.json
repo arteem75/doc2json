@@ -1,0 +1,556 @@
+{
+  "frozen": "false",
+  "data_type": "class",
+  "name": "NSDictionary",
+  "type_parameters": "[]",
+  "methods": [
+    [
+      {
+        "name": "isEqual",
+        "type parameters": null,
+        "parameters": "to: [AnyHashable : Any]",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "allKeys",
+        "type parameters": null,
+        "parameters": "for: Any",
+        "throws": "false",
+        "return_type": "[Any]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "value",
+        "type parameters": null,
+        "parameters": "forKey: String",
+        "throws": "false",
+        "return_type": "Any?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "objects",
+        "type parameters": null,
+        "parameters": "forKeys: [Any], notFoundMarker: Any",
+        "throws": "false",
+        "return_type": "[Any]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "object",
+        "type parameters": null,
+        "parameters": "forKey: Any",
+        "throws": "false",
+        "return_type": "Any?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "keyEnumerator",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "NSEnumerator",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "objectEnumerator",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "NSEnumerator",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "enumerateKeysAndObjects",
+        "type parameters": "ObjCBool",
+        "parameters": "(Any, Any, UnsafeMutablePointer<ObjCBool>) -> Void",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "enumerateKeysAndObjects",
+        "type parameters": "ObjCBool",
+        "parameters": "options: NSEnumerationOptions, using: (Any, Any, UnsafeMutablePointer<ObjCBool>) -> Void",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "makeIterator",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "NSDictionary.Iterator",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "keysSortedByValue",
+        "type parameters": null,
+        "parameters": "using: Selector",
+        "throws": "false",
+        "return_type": "[Any]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "keysSortedByValue",
+        "type parameters": null,
+        "parameters": "comparator: (Any, Any) -> ComparisonResult",
+        "throws": "false",
+        "return_type": "[Any]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "keysSortedByValue",
+        "type parameters": null,
+        "parameters": "options: NSSortOptions, usingComparator: (Any, Any) -> ComparisonResult",
+        "throws": "false",
+        "return_type": "[Any]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "keysOfEntries",
+        "type parameters": "ObjCBool",
+        "parameters": "passingTest: (Any, Any, UnsafeMutablePointer<ObjCBool>) -> Bool",
+        "throws": "false",
+        "return_type": "Set<AnyHashable>",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "keysOfEntries",
+        "type parameters": "ObjCBool",
+        "parameters": "options: NSEnumerationOptions, passingTest: (Any, Any, UnsafeMutablePointer<ObjCBool>) -> Bool",
+        "throws": "false",
+        "return_type": "Set<AnyHashable>",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "write",
+        "type parameters": null,
+        "parameters": "to: URL",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileSize",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "UInt64",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileType",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "String?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileCreationDate",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Date?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileModificationDate",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Date?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "filePosixPermissions",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileOwnerAccountID",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "NSNumber?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileOwnerAccountName",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "String?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileGroupOwnerAccountID",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "NSNumber?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileGroupOwnerAccountName",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "String?",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileExtensionHidden",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileIsImmutable",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileIsAppendOnly",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileSystemFileNumber",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileSystemNumber",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileHFSTypeCode",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "OSType",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "fileHFSCreatorCode",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "OSType",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "description",
+        "type parameters": null,
+        "parameters": "withLocale: Any?",
+        "throws": "false",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "description",
+        "type parameters": null,
+        "parameters": "withLocale: Any?, indent: Int",
+        "throws": "false",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      }
+    ],
+    [
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "objects: [Any], forKeys: [NSCopying]",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "AnyObject",
+        "parameters": "objects: UnsafePointer<AnyObject>?, forKeys: UnsafePointer<NSCopying>?, count: Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "object: Any, forKey: NSCopying",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "dictionary: [AnyHashable : Any]",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "dictionary: [AnyHashable : Any], copyItems: Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "dictionaryLiteral: (Any, Any)...",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "contentsOf: URL, error: ()",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "coder: NSCoder",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "dictionary: NSDictionary",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      }
+    ]
+  ],
+  "fields": [
+    [
+      {
+        "name": "count",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "allKeys",
+        "return_type": "[Any]",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "allValues",
+        "return_type": "[Any]",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "description",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "descriptionInStringsFileFormat",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "customMirror",
+        "return_type": "Mirror",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "underestimatedCount",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      }
+    ]
+  ],
+  "conforms_to": [
+    [
+      {
+        "name": "CustomReflectable",
+        "conditional": "false"
+      },
+      {
+        "name": "ExpressibleByDictionaryLiteral",
+        "conditional": "false"
+      },
+      {
+        "name": "NSCopying",
+        "conditional": "false"
+      },
+      {
+        "name": "NSFastEnumeration",
+        "conditional": "false"
+      },
+      {
+        "name": "NSFetchRequestResult",
+        "conditional": "false"
+      },
+      {
+        "name": "NSMutableCopying",
+        "conditional": "false"
+      },
+      {
+        "name": "NSSecureCoding",
+        "conditional": "false"
+      },
+      {
+        "name": "Sequence",
+        "conditional": "false"
+      }
+    ]
+  ],
+  "typealiases": [
+    [
+      {
+        "name": "NSDictionary",
+        "conditional": "false"
+      },
+      {
+        "name": "NSDictionary",
+        "conditional": "false"
+      },
+      {
+        "name": "NSDictionary",
+        "conditional": "false"
+      }
+    ]
+  ],
+  "inherits": [
+    [
+      "NSObject"
+    ]
+  ],
+  "language": "swift"
+}

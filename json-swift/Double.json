@@ -1,0 +1,1036 @@
+{
+  "frozen": "true",
+  "data_type": "struct",
+  "name": "Double",
+  "type_parameters": "[]",
+  "methods": [
+    [
+      {
+        "name": "random",
+        "type parameters": "Self",
+        "parameters": "in: Range<Self>",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "true",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "random",
+        "type parameters": "T",
+        "parameters": "in: Range<Self>, using: inout T",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "true",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "random",
+        "type parameters": "Self",
+        "parameters": "in: ClosedRange<Self>",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "true",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "random",
+        "type parameters": "T",
+        "parameters": "in: ClosedRange<Self>, using: inout T",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "true",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "addingProduct",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "addProduct",
+        "type parameters": null,
+        "parameters": "Double, Double",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "squareRoot",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formSquareRoot",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "remainder",
+        "type parameters": null,
+        "parameters": "dividingBy: Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formRemainder",
+        "type parameters": null,
+        "parameters": "dividingBy: Double",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "truncatingRemainder",
+        "type parameters": null,
+        "parameters": "dividingBy: Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formTruncatingRemainder",
+        "type parameters": null,
+        "parameters": "dividingBy: Double",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "negate",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "rounded",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "rounded",
+        "type parameters": null,
+        "parameters": "FloatingPointRoundingRule",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "round",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "round",
+        "type parameters": null,
+        "parameters": "FloatingPointRoundingRule",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "isEqual",
+        "type parameters": null,
+        "parameters": "to: Double",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "isLess",
+        "type parameters": null,
+        "parameters": "than: Double",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "isLessThanOrEqualTo",
+        "type parameters": null,
+        "parameters": "Double",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "isTotallyOrdered",
+        "type parameters": null,
+        "parameters": "belowOrEqualTo: Self",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "minimum",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "minimumMagnitude",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "maximum",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "maximumMagnitude",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "encode",
+        "type parameters": null,
+        "parameters": "to: Encoder",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "init",
+        "type parameters": "Self",
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "ClosedRange<Self>",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "true"
+      },
+      {
+        "name": "hash",
+        "type parameters": null,
+        "parameters": "into: inout Hasher",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "advanced",
+        "type parameters": null,
+        "parameters": "by: Double",
+        "throws": "false",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "distance",
+        "type parameters": null,
+        "parameters": "to: Double",
+        "throws": "false",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "write",
+        "type parameters": "Target",
+        "parameters": "to: inout Target",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      }
+    ],
+    [
+      {
+        "name": "init",
+        "type parameters": "Source",
+        "parameters": "Source",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "Int",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "S",
+        "parameters": "S",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "Substring",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Source",
+        "parameters": "Source",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "Double",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "Float",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "Float16",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "Float80",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "sign: FloatingPointSign, exponent: Int, significand: Double",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "signOf: Double, magnitudeOf: Double",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Source",
+        "parameters": "Source",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "truncating: NSNumber",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "Source",
+        "parameters": "exactly: Source",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "Source",
+        "parameters": "exactly: Source",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "Source",
+        "parameters": "exactly: Source",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "exactly: Double",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "exactly: Float",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "exactly: Float16",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "exactly: Float80",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "exactly: NSNumber",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "bitPattern: UInt64",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "sign: FloatingPointSign, exponentBitPattern: UInt, significandBitPattern: UInt64",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "nan: Double.RawSignificand, signaling: Bool",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "from: Decoder",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": null,
+        "parameters": "from: MLDataValue",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "floatLiteral: Double",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "integerLiteral: Int64",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "integerLiteral: Self",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "NSNumber",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      }
+    ]
+  ],
+  "fields": [
+    [
+      {
+        "name": "magnitude",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "sign",
+        "return_type": "FloatingPointSign",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "ulp",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "significand",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "exponent",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "nextUp",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "nextDown",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "binade",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "pi",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "infinity",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "greatestFiniteMagnitude",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "nan",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "signalingNaN",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "ulpOfOne",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "leastNonzeroMagnitude",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "leastNormalMagnitude",
+        "return_type": "Double",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "zero",
+        "return_type": "Self",
+        "conditional": "true",
+        "static": "true"
+      },
+      {
+        "name": "bitPattern",
+        "return_type": "UInt64",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "significandBitPattern",
+        "return_type": "UInt64",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "significandWidth",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "exponentBitPattern",
+        "return_type": "UInt",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "significandBitCount",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "exponentBitCount",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "radix",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "isZero",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "isFinite",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "isInfinite",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "isNaN",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "isSignalingNaN",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "isNormal",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "isSubnormal",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "isCanonical",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "floatingPointClass",
+        "return_type": "FloatingPointClassification",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "description",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "debugDescription",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "customMirror",
+        "return_type": "Mirror",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "dataValue",
+        "return_type": "MLDataValue",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "dataValueType",
+        "return_type": "MLDataValue.ValueType",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "hashValue",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "mlMultiArrayDataType",
+        "return_type": "MLMultiArrayDataType",
+        "conditional": "false",
+        "static": "true"
+      }
+    ]
+  ],
+  "conforms_to": [
+    [
+      {
+        "name": "AdditiveArithmetic",
+        "conditional": "false"
+      },
+      {
+        "name": "Animatable",
+        "conditional": "false"
+      },
+      {
+        "name": "AnimatableData",
+        "conditional": "false"
+      },
+      {
+        "name": "BinaryFloatingPoint",
+        "conditional": "false"
+      },
+      {
+        "name": "BindableData",
+        "conditional": "false"
+      },
+      {
+        "name": "CVarArg",
+        "conditional": "false"
+      },
+      {
+        "name": "Comparable",
+        "conditional": "false"
+      },
+      {
+        "name": "CustomDebugStringConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "CustomReflectable",
+        "conditional": "false"
+      },
+      {
+        "name": "CustomStringConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "Decodable",
+        "conditional": "false"
+      },
+      {
+        "name": "Encodable",
+        "conditional": "false"
+      },
+      {
+        "name": "Equatable",
+        "conditional": "false"
+      },
+      {
+        "name": "ExpressibleByFloatLiteral",
+        "conditional": "false"
+      },
+      {
+        "name": "ExpressibleByIntegerLiteral",
+        "conditional": "false"
+      },
+      {
+        "name": "FloatingPoint",
+        "conditional": "false"
+      },
+      {
+        "name": "Hashable",
+        "conditional": "false"
+      },
+      {
+        "name": "LosslessStringConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "MLDataValueConvertible",
+        "conditional": "false"
+      },
+      {
+        "name": "Numeric",
+        "conditional": "false"
+      },
+      {
+        "name": "Plottable",
+        "conditional": "false"
+      },
+      {
+        "name": "PrimitivePlottableProtocol",
+        "conditional": "false"
+      },
+      {
+        "name": "RangeComparableProperty",
+        "conditional": "false"
+      },
+      {
+        "name": "SIMDScalar",
+        "conditional": "false"
+      },
+      {
+        "name": "Sendable",
+        "conditional": "false"
+      },
+      {
+        "name": "SignedNumeric",
+        "conditional": "false"
+      },
+      {
+        "name": "Strideable",
+        "conditional": "false"
+      },
+      {
+        "name": "TextOutputStreamable",
+        "conditional": "false"
+      },
+      {
+        "name": "VectorArithmetic",
+        "conditional": "false"
+      }
+    ]
+  ],
+  "typealiases": [
+    [
+      {
+        "name": "Magnitude",
+        "conditional": "false"
+      },
+      {
+        "name": "Exponent",
+        "conditional": "false"
+      },
+      {
+        "name": "RawSignificand",
+        "conditional": "false"
+      },
+      {
+        "name": "RawExponent",
+        "conditional": "false"
+      },
+      {
+        "name": "FloatLiteralType",
+        "conditional": "false"
+      },
+      {
+        "name": "IntegerLiteralType",
+        "conditional": "false"
+      },
+      {
+        "name": "Stride",
+        "conditional": "false"
+      },
+      {
+        "name": "SIMDMaskScalar",
+        "conditional": "false"
+      }
+    ]
+  ],
+  "inherits": [
+    []
+  ],
+  "language": "swift"
+}
