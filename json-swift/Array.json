@@ -6,6 +6,56 @@
   "methods": [
     [
       {
+        "name": "subscript",
+        "type parameters": null,
+        "parameters": "Int",
+        "throws": "false",
+        "return_type": "Element",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "subscript",
+        "type parameters": "Int",
+        "parameters": "Range<Int>",
+        "throws": "false",
+        "return_type": "ArraySlice<Element>",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "subscript",
+        "type parameters": "R",
+        "parameters": "R",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "subscript",
+        "type parameters": "R",
+        "parameters": "R",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "subscript",
+        "type parameters": null,
+        "parameters": "(UnboundedRange_) -> ()",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
         "name": "randomElement",
         "type parameters": null,
         "parameters": "",

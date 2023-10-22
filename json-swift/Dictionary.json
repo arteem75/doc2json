@@ -6,11 +6,41 @@
   "methods": [
     [
       {
+        "name": "subscript",
+        "type parameters": null,
+        "parameters": "Key",
+        "throws": "false",
+        "return_type": "Value?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "subscript",
+        "type parameters": null,
+        "parameters": "Key, default _: () -> Value",
+        "throws": "false",
+        "return_type": "Value",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
         "name": "index",
         "type parameters": "Key, Value",
         "parameters": "forKey: Key",
         "throws": "false",
         "return_type": "Dictionary<Key, Value>.Index?",
+        "conditional": "true",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "subscript",
+        "type parameters": "Key, Value",
+        "parameters": "Dictionary<Key, Value>.Index",
+        "throws": "false",
+        "return_type": "Dictionary<Key, Value>.Element",
         "conditional": "true",
         "static": "false",
         "is_constructor": "false"

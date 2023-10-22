@@ -726,6 +726,36 @@
         "is_constructor": "false"
       },
       {
+        "name": "subscript",
+        "type parameters": "String.Index",
+        "parameters": "Range<String.Index>",
+        "throws": "false",
+        "return_type": "Substring",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "subscript",
+        "type parameters": "R",
+        "parameters": "R",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "subscript",
+        "type parameters": null,
+        "parameters": "(UnboundedRange_) -> ()",
+        "throws": "false",
+        "return_type": "Self.SubSequence",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
         "name": "prefix",
         "type parameters": null,
         "parameters": "Int",
@@ -801,6 +831,16 @@
         "parameters": "maxSplits: Int, omittingEmptySubsequences: Bool, whereSeparator: (Self.Element) throws -> Bool",
         "throws": "true",
         "return_type": "[Self.SubSequence]",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "subscript",
+        "type parameters": null,
+        "parameters": "String.Index",
+        "throws": "false",
+        "return_type": "Character",
         "conditional": "false",
         "static": "false",
         "is_constructor": "false"

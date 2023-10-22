@@ -38,7 +38,7 @@ class SwiftAPIDocConverter(APIDocConverter):
         out_init = []
         out_typealias = []
         for elem,cond in extracted_elements:
-                if elem.startswith('func ') or elem.startswith('static func '):
+                if elem.startswith('func ') or elem.startswith('static func ') or elem.startswith('subscript'):
                     out_func.append((self.process_methods(elem),cond))
 
                 if elem.startswith('var' ) or elem.startswith('static var '):
@@ -199,9 +199,11 @@ class SwiftAPIDocConverter(APIDocConverter):
         type_parameters = re.search(type_parameters_pattern, func_signature)
         parameters = re.findall(parameters_pattern, func_signature)
         throws = re.search(throws_pattern, func_signature)
-        func_name = re.search(func_name_pattern, func_signature)
 
-        func_name = func_name.group(1) if func_name else None
+        #check if it's a subscript i.e arr[0], if so the method name is 'subscript', else extract the name
+        func_name = 'subscript' if func_signature.startswith('subscript') else re.search(func_name_pattern, func_signature)
+        if func_name != 'subscript':
+            func_name = func_name.group(1) if func_name else None
         type_parameters = type_parameters.group(1) if type_parameters else None
         throws = "true" if throws else "false"
         return_type = None
