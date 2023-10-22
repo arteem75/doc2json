@@ -1,0 +1,34 @@
+{
+  "frozen": "false",
+  "data_type": "protocol",
+  "name": "TextOutputStream",
+  "type_parameters": "[]",
+  "methods": [
+    [
+      {
+        "name": "write",
+        "type parameters": null,
+        "parameters": "String",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      }
+    ],
+    []
+  ],
+  "fields": [
+    []
+  ],
+  "conforms_to": [
+    []
+  ],
+  "typealiases": [
+    []
+  ],
+  "inherits": [
+    []
+  ],
+  "language": "swift"
+}
