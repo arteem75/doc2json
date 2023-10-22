@@ -317,7 +317,7 @@
       },
       {
         "name": "removeSubrange",
-        "type parameters": "String.Index",
+        "type parameters": null,
         "parameters": "Range<String.Index>",
         "throws": "false",
         "return_type": null,
@@ -327,7 +327,7 @@
       },
       {
         "name": "removeSubrange",
-        "type parameters": "Self.Index",
+        "type parameters": null,
         "parameters": "Range<Self.Index>",
         "throws": "false",
         "return_type": null,
@@ -527,7 +527,7 @@
       },
       {
         "name": "applying",
-        "type parameters": "Self.Element",
+        "type parameters": null,
         "parameters": "CollectionDifference<Self.Element>",
         "throws": "false",
         "return_type": "Self?",
@@ -727,7 +727,7 @@
       },
       {
         "name": "subscript",
-        "type parameters": "String.Index",
+        "type parameters": null,
         "parameters": "Range<String.Index>",
         "throws": "false",
         "return_type": "Substring",
@@ -967,7 +967,7 @@
       },
       {
         "name": "enumerated",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "",
         "throws": "false",
         "return_type": "EnumeratedSequence<Self>",
@@ -1007,7 +1007,7 @@
       },
       {
         "name": "reversed",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "",
         "throws": "false",
         "return_type": "ReversedCollection<Self>",
@@ -1146,34 +1146,34 @@
         "is_constructor": "false"
       },
       {
-        "name": "init",
-        "type parameters": "Self",
+        "name": "...",
+        "type parameters": null,
         "parameters": "Self, Self",
         "throws": "false",
         "return_type": "ClosedRange<Self>",
         "conditional": "false",
         "static": "true",
-        "is_constructor": "true"
+        "is_constructor": "false"
       },
       {
-        "name": "init",
-        "type parameters": "Self",
+        "name": "...",
+        "type parameters": null,
         "parameters": "Self",
         "throws": "false",
         "return_type": "PartialRangeThrough<Self>",
         "conditional": "false",
         "static": "true",
-        "is_constructor": "true"
+        "is_constructor": "false"
       },
       {
-        "name": "init",
-        "type parameters": "Self",
+        "name": "...",
+        "type parameters": null,
         "parameters": "Self",
         "throws": "false",
         "return_type": "PartialRangeFrom<Self>",
         "conditional": "false",
         "static": "true",
-        "is_constructor": "true"
+        "is_constructor": "false"
       },
       {
         "name": "encode",
@@ -1339,7 +1339,7 @@
       },
       {
         "name": "init",
-        "type parameters": "UInt8",
+        "type parameters": null,
         "parameters": "unsafeUninitializedCapacity: Int, initializingUTF8With: (UnsafeMutableBufferPointer<UInt8>) throws -> Int",
         "throws": "true",
         "return_type": null,
@@ -1369,7 +1369,7 @@
       },
       {
         "name": "init?",
-        "type parameters": "CChar",
+        "type parameters": null,
         "parameters": "validatingUTF8: UnsafePointer<CChar>",
         "throws": "false",
         "return_type": null,
@@ -1379,7 +1379,7 @@
       },
       {
         "name": "init",
-        "type parameters": "unichar",
+        "type parameters": null,
         "parameters": "utf16CodeUnits: UnsafePointer<unichar>, count: Int",
         "throws": "false",
         "return_type": null,
@@ -1389,7 +1389,7 @@
       },
       {
         "name": "init",
-        "type parameters": "unichar",
+        "type parameters": null,
         "parameters": "utf16CodeUnitsNoCopy: UnsafePointer<unichar>, count: Int, freeWhenDone: Bool",
         "throws": "false",
         "return_type": null,
@@ -1479,7 +1479,7 @@
       },
       {
         "name": "init",
-        "type parameters": "CChar",
+        "type parameters": null,
         "parameters": "cString: UnsafePointer<CChar>",
         "throws": "false",
         "return_type": null,
@@ -1489,7 +1489,7 @@
       },
       {
         "name": "init",
-        "type parameters": "UInt8",
+        "type parameters": null,
         "parameters": "cString: UnsafePointer<UInt8>",
         "throws": "false",
         "return_type": null,
@@ -1779,7 +1779,7 @@
       },
       {
         "name": "init",
-        "type parameters": "AttributedString.CharacterView",
+        "type parameters": null,
         "parameters": "Slice<AttributedString.CharacterView>",
         "throws": "false",
         "return_type": null,
@@ -1819,7 +1819,7 @@
       },
       {
         "name": "init?",
-        "type parameters": "CChar",
+        "type parameters": null,
         "parameters": "cString: UnsafePointer<CChar>, encoding: String.Encoding",
         "throws": "false",
         "return_type": null,
@@ -1909,7 +1909,7 @@
       },
       {
         "name": "init",
-        "type parameters": "CInterop.PlatformChar",
+        "type parameters": null,
         "parameters": "platformString: UnsafePointer<CInterop.PlatformChar>",
         "throws": "false",
         "return_type": null,
@@ -1929,7 +1929,7 @@
       },
       {
         "name": "init?",
-        "type parameters": "CChar",
+        "type parameters": null,
         "parameters": "utf8String: UnsafePointer<CChar>",
         "throws": "false",
         "return_type": null,
@@ -1979,7 +1979,7 @@
       },
       {
         "name": "init?",
-        "type parameters": "CInterop.PlatformChar",
+        "type parameters": null,
         "parameters": "validatingPlatformString: UnsafePointer<CInterop.PlatformChar>",
         "throws": "false",
         "return_type": null,

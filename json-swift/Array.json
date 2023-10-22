@@ -17,7 +17,7 @@
       },
       {
         "name": "subscript",
-        "type parameters": "Int",
+        "type parameters": null,
         "parameters": "Range<Int>",
         "throws": "false",
         "return_type": "ArraySlice<Element>",
@@ -177,7 +177,7 @@
       },
       {
         "name": "+",
-        "type parameters": "Element",
+        "type parameters": null,
         "parameters": "Array<Element>, Array<Element>",
         "throws": "false",
         "return_type": "Array<Element>",
@@ -207,7 +207,7 @@
       },
       {
         "name": "+=",
-        "type parameters": "Element",
+        "type parameters": null,
         "parameters": "inout Array<Element>, Array<Element>",
         "throws": "false",
         "return_type": null,
@@ -267,7 +267,7 @@
       },
       {
         "name": "removeSubrange",
-        "type parameters": "Self.Index",
+        "type parameters": null,
         "parameters": "Range<Self.Index>",
         "throws": "false",
         "return_type": null,
@@ -617,7 +617,7 @@
       },
       {
         "name": "enumerated",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "",
         "throws": "false",
         "return_type": "EnumeratedSequence<Self>",
@@ -627,7 +627,7 @@
       },
       {
         "name": "makeIterator",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "",
         "throws": "false",
         "return_type": "IndexingIterator<Self>",
@@ -687,7 +687,7 @@
       },
       {
         "name": "reversed",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "",
         "throws": "false",
         "return_type": "ReversedCollection<Self>",
@@ -777,7 +777,7 @@
       },
       {
         "name": "joined",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "",
         "throws": "false",
         "return_type": "FlattenSequence<Self>",
@@ -817,7 +817,7 @@
       },
       {
         "name": "applying",
-        "type parameters": "Self.Element",
+        "type parameters": null,
         "parameters": "CollectionDifference<Self.Element>",
         "throws": "false",
         "return_type": "Self?",
@@ -847,7 +847,7 @@
       },
       {
         "name": "==",
-        "type parameters": "Element",
+        "type parameters": null,
         "parameters": "Array<Element>, Array<Element>",
         "throws": "false",
         "return_type": "Bool",
@@ -1149,7 +1149,7 @@
       },
       {
         "name": "init",
-        "type parameters": "Element",
+        "type parameters": null,
         "parameters": "unsafeUninitializedCapacity: Int, initializingWith: (inout UnsafeMutableBufferPointer<Element>, inout Int) throws -> Void",
         "throws": "true",
         "return_type": null,
@@ -1179,7 +1179,7 @@
       },
       {
         "name": "init",
-        "type parameters": "Element",
+        "type parameters": null,
         "parameters": "MLDataColumn<Element>",
         "throws": "false",
         "return_type": null,

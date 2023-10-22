@@ -97,7 +97,7 @@
       },
       {
         "name": "<",
-        "type parameters": " <Other",
+        "type parameters": "Other",
         "parameters": "Self, Other",
         "throws": "false",
         "return_type": "Bool",
@@ -147,7 +147,7 @@
       },
       {
         "name": "<=",
-        "type parameters": "= <Other",
+        "type parameters": "Other",
         "parameters": "Self, Other",
         "throws": "false",
         "return_type": "Bool",
@@ -157,7 +157,7 @@
       },
       {
         "name": "<<",
-        "type parameters": "< <RHS",
+        "type parameters": "RHS",
         "parameters": "Self, RHS",
         "throws": "false",
         "return_type": "Self",
@@ -187,7 +187,7 @@
       },
       {
         "name": "<<=",
-        "type parameters": "<= <RHS",
+        "type parameters": "RHS",
         "parameters": "inout Self, RHS",
         "throws": "false",
         "return_type": null,
@@ -289,7 +289,7 @@
       },
       {
         "name": "init",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "String, format: IntegerFormatStyle<Self>, lenient: Bool",
         "throws": "true",
         "return_type": null,
@@ -299,7 +299,7 @@
       },
       {
         "name": "init",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "String, format: IntegerFormatStyle<Self>.Currency, lenient: Bool",
         "throws": "true",
         "return_type": null,
@@ -309,7 +309,7 @@
       },
       {
         "name": "init",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "String, format: IntegerFormatStyle<Self>.Percent, lenient: Bool",
         "throws": "true",
         "return_type": null,

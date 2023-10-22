@@ -97,7 +97,7 @@
       },
       {
         "name": "enumerateKeysAndObjects",
-        "type parameters": "ObjCBool",
+        "type parameters": null,
         "parameters": "(Any, Any, UnsafeMutablePointer<ObjCBool>) -> Void",
         "throws": "false",
         "return_type": null,
@@ -107,7 +107,7 @@
       },
       {
         "name": "enumerateKeysAndObjects",
-        "type parameters": "ObjCBool",
+        "type parameters": null,
         "parameters": "options: NSEnumerationOptions, using: (Any, Any, UnsafeMutablePointer<ObjCBool>) -> Void",
         "throws": "false",
         "return_type": null,
@@ -157,7 +157,7 @@
       },
       {
         "name": "keysOfEntries",
-        "type parameters": "ObjCBool",
+        "type parameters": null,
         "parameters": "passingTest: (Any, Any, UnsafeMutablePointer<ObjCBool>) -> Bool",
         "throws": "false",
         "return_type": "Set<AnyHashable>",
@@ -167,7 +167,7 @@
       },
       {
         "name": "keysOfEntries",
-        "type parameters": "ObjCBool",
+        "type parameters": null,
         "parameters": "options: NSEnumerationOptions, passingTest: (Any, Any, UnsafeMutablePointer<ObjCBool>) -> Bool",
         "throws": "false",
         "return_type": "Set<AnyHashable>",
@@ -389,7 +389,7 @@
       },
       {
         "name": "init",
-        "type parameters": "AnyObject",
+        "type parameters": null,
         "parameters": "objects: UnsafePointer<AnyObject>?, forKeys: UnsafePointer<NSCopying>?, count: Int",
         "throws": "false",
         "return_type": null,

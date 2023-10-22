@@ -7,7 +7,7 @@
     [
       {
         "name": "random",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "in: Range<Self>",
         "throws": "false",
         "return_type": "Self",
@@ -27,7 +27,7 @@
       },
       {
         "name": "random",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "in: ClosedRange<Self>",
         "throws": "false",
         "return_type": "Self",
@@ -266,14 +266,14 @@
         "is_constructor": "false"
       },
       {
-        "name": "init",
-        "type parameters": "Self",
+        "name": "...",
+        "type parameters": null,
         "parameters": "Self, Self",
         "throws": "false",
         "return_type": "ClosedRange<Self>",
         "conditional": "false",
         "static": "true",
-        "is_constructor": "true"
+        "is_constructor": "false"
       },
       {
         "name": "hash",

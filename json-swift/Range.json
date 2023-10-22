@@ -6,14 +6,14 @@
   "methods": [
     [
       {
-        "name": "init",
-        "type parameters": " (Self, Self) -",
+        "name": "..<",
+        "type parameters": null,
         "parameters": "Self, Self",
         "throws": "false",
         "return_type": "Range<Self>",
         "conditional": "false",
         "static": "true",
-        "is_constructor": "true"
+        "is_constructor": "false"
       },
       {
         "name": "relative",
@@ -47,7 +47,7 @@
       },
       {
         "name": "clamped",
-        "type parameters": "Bound",
+        "type parameters": null,
         "parameters": "to: Range<Bound>",
         "throws": "false",
         "return_type": "Range<Bound>",
@@ -57,7 +57,7 @@
       },
       {
         "name": "==",
-        "type parameters": "Bound",
+        "type parameters": null,
         "parameters": "Range<Bound>, Range<Bound>",
         "throws": "false",
         "return_type": "Bool",
@@ -77,7 +77,7 @@
       },
       {
         "name": "overlaps",
-        "type parameters": "Bound",
+        "type parameters": null,
         "parameters": "Range<Bound>",
         "throws": "false",
         "return_type": "Bool",
@@ -87,7 +87,7 @@
       },
       {
         "name": "overlaps",
-        "type parameters": "Bound",
+        "type parameters": null,
         "parameters": "ClosedRange<Bound>",
         "throws": "false",
         "return_type": "Bool",
@@ -147,7 +147,7 @@
       },
       {
         "name": "upToNextMajor",
-        "type parameters": "Bound",
+        "type parameters": null,
         "parameters": "from: Version",
         "throws": "false",
         "return_type": "Range<Bound>",
@@ -157,7 +157,7 @@
       },
       {
         "name": "upToNextMinor",
-        "type parameters": "Bound",
+        "type parameters": null,
         "parameters": "from: Version",
         "throws": "false",
         "return_type": "Range<Bound>",
@@ -229,7 +229,7 @@
       },
       {
         "name": "init",
-        "type parameters": "Bound",
+        "type parameters": null,
         "parameters": "Range<Bound>",
         "throws": "false",
         "return_type": null,
@@ -239,7 +239,7 @@
       },
       {
         "name": "init",
-        "type parameters": "Bound",
+        "type parameters": null,
         "parameters": "ClosedRange<Bound>",
         "throws": "false",
         "return_type": null,

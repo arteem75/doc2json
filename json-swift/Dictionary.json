@@ -27,7 +27,7 @@
       },
       {
         "name": "index",
-        "type parameters": "Key, Value",
+        "type parameters": null,
         "parameters": "forKey: Key",
         "throws": "false",
         "return_type": "Dictionary<Key, Value>.Index?",
@@ -37,7 +37,7 @@
       },
       {
         "name": "subscript",
-        "type parameters": "Key, Value",
+        "type parameters": null,
         "parameters": "Dictionary<Key, Value>.Index",
         "throws": "false",
         "return_type": "Dictionary<Key, Value>.Element",
@@ -127,7 +127,7 @@
       },
       {
         "name": "filter",
-        "type parameters": "Key, Value",
+        "type parameters": null,
         "parameters": "(Dictionary<Key, Value>.Element) throws -> Bool",
         "throws": "true",
         "return_type": "[Key : Value]",
@@ -147,7 +147,7 @@
       },
       {
         "name": "remove",
-        "type parameters": "Key, Value",
+        "type parameters": null,
         "parameters": "at: Dictionary<Key, Value>.Index",
         "throws": "false",
         "return_type": "Dictionary<Key, Value>.Element",
@@ -197,7 +197,7 @@
       },
       {
         "name": "enumerated",
-        "type parameters": "Self",
+        "type parameters": null,
         "parameters": "",
         "throws": "false",
         "return_type": "EnumeratedSequence<Self>",
@@ -207,7 +207,7 @@
       },
       {
         "name": "makeIterator",
-        "type parameters": "Key, Value",
+        "type parameters": null,
         "parameters": "",
         "throws": "false",
         "return_type": "Dictionary<Key, Value>.Iterator",

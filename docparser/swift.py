@@ -188,8 +188,11 @@ class SwiftAPIDocConverter(APIDocConverter):
         #return_type_pattern= r'->\s+([\w\.\?\[\]\s\:<>\-]+)(?![\s\S]*->)'
         #parameters_pattern = r'\(([^)]+\))'  
 
-        func_name_pattern = r'func (\w+|\+=|\+|\==|\~=|\!=|\|\||&&|-=|!)'
-        type_parameters_pattern = r'<(.+?)>'
+        #func_name_pattern = r'func (\w+|\+=|\+|\==|\~=|\!=|\|\||&&|-=|!)'
+        func_name_pattern = r'func\s+((\w+)|([=\-\+!*%<>&|^~/.?]+))'
+        #type_parameters_pattern = r'<(.+?)>'
+        type_parameters_pattern = r'<((?:(?!<).)+)>\('
+
         return_type_pattern= r'->\s*([\w\.\?\[\],\s\:<>\-]+)(?![\s\S]*->)'
         parameters_pattern = r'\(((?:[^()]|\((?:[^()]|\([^()]*\))*\))*)\)'
 
@@ -216,17 +219,21 @@ class SwiftAPIDocConverter(APIDocConverter):
             is_static = "true"
         
         if func_name is None:
-            is_constructor = "true"
+            
             if func_signature.startswith('init?'):
                 func_name = 'init?'
-            else:
+                is_constructor = "true"
+            elif func_signature.startswith('init'):
                 func_name = 'init'
+                is_constructor = "true"
+            else:
+                print('could not process' + str(func_signature))
         #print(func_name)
         return [func_name,type_parameters, parameters, throws, return_type,is_static,is_constructor]
 
         # extracts classes that the processed class inherits from and the protocols that the processed element conforms to
     def extract_inheritance(self,html_content):
-        soup = html_content#BeautifulSoup(html_content, 'html.parser')
+        soup = html_content
 
         elements_with_constraints = []
         elements_without_constraints = []
