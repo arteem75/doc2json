@@ -1,0 +1,389 @@
+{
+  "frozen": "false",
+  "data_type": "protocol",
+  "name": "BinaryInteger",
+  "type_parameters": "[]",
+  "methods": [
+    [
+      {
+        "name": "quotientAndRemainder",
+        "type parameters": null,
+        "parameters": "dividingBy: Self, quotient: Self, remainder: Self",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "isMultiple",
+        "type parameters": null,
+        "parameters": "of: Self",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "signum",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "/",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "/=",
+        "type parameters": null,
+        "parameters": "inout Self, Self",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": ">",
+        "type parameters": "Other",
+        "parameters": "Self, Other",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "%",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "^",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "|",
+        "type parameters": null,
+        "parameters": "Self, Self",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "<",
+        "type parameters": " <Other",
+        "parameters": "Self, Other",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "^=",
+        "type parameters": null,
+        "parameters": "inout Self, Self",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "|=",
+        "type parameters": null,
+        "parameters": "inout Self, Self",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": ">=",
+        "type parameters": "Other",
+        "parameters": "Self, Other",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "%=",
+        "type parameters": null,
+        "parameters": "inout Self, Self",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "<=",
+        "type parameters": "= <Other",
+        "parameters": "Self, Other",
+        "throws": "false",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "<<",
+        "type parameters": "< <RHS",
+        "parameters": "Self, RHS",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": ">>",
+        "type parameters": "RHS",
+        "parameters": "Self, RHS",
+        "throws": "false",
+        "return_type": "Self",
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": ">>=",
+        "type parameters": "RHS",
+        "parameters": "inout Self, RHS",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "<<=",
+        "type parameters": "<= <RHS",
+        "parameters": "inout Self, RHS",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "true",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formatted",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": "String",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formatted",
+        "type parameters": "S",
+        "parameters": "S",
+        "throws": "false",
+        "return_type": "S.FormatOutput",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      },
+      {
+        "name": "formatted",
+        "type parameters": "S",
+        "parameters": "S",
+        "throws": "false",
+        "return_type": "S.FormatOutput",
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "false"
+      }
+    ],
+    [
+      {
+        "name": "init",
+        "type parameters": null,
+        "parameters": "",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "T",
+        "parameters": "T",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "T",
+        "parameters": "clamping: T",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "T",
+        "parameters": "truncatingIfNeeded: T",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "T",
+        "parameters": "T",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init?",
+        "type parameters": "T",
+        "parameters": "exactly: T",
+        "throws": "false",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Self",
+        "parameters": "String, format: IntegerFormatStyle<Self>, lenient: Bool",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Self",
+        "parameters": "String, format: IntegerFormatStyle<Self>.Currency, lenient: Bool",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "Self",
+        "parameters": "String, format: IntegerFormatStyle<Self>.Percent, lenient: Bool",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "S",
+        "parameters": "S.ParseInput, strategy: S",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      },
+      {
+        "name": "init",
+        "type parameters": "S",
+        "parameters": "S.ParseInput, strategy: S",
+        "throws": "true",
+        "return_type": null,
+        "conditional": "false",
+        "static": "false",
+        "is_constructor": "true"
+      }
+    ]
+  ],
+  "fields": [
+    [
+      {
+        "name": "isSigned",
+        "return_type": "Bool",
+        "conditional": "false",
+        "static": "true"
+      },
+      {
+        "name": "bitWidth",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "trailingZeroBitCount",
+        "return_type": "Int",
+        "conditional": "false",
+        "static": "false"
+      },
+      {
+        "name": "words",
+        "return_type": "Self.Words",
+        "conditional": "false",
+        "static": "false"
+      }
+    ]
+  ],
+  "conforms_to": [
+    []
+  ],
+  "typealiases": [
+    []
+  ],
+  "inherits": [
+    [
+      "AdditiveArithmetic",
+      "Comparable",
+      "CustomStringConvertible",
+      "Equatable",
+      "ExpressibleByIntegerLiteral",
+      "Hashable",
+      "Numeric",
+      "Strideable"
+    ]
+  ],
+  "language": "swift"
+}
