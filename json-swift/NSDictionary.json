@@ -515,7 +515,7 @@
       }
     ]
   ],
-  "conforms_to": [
+  "implements": [
     [
       {
         "name": "CustomReflectable",

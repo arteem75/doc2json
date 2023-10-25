@@ -63,14 +63,14 @@ class SwiftAPIDocConverter(APIDocConverter):
             
             "methods":[],
             "fields":[],
-            "conforms_to":[],
+            "implements":[],
             "typealiases":[],
             "inherits":[],
             "language":"swift"
         }
         merged_json["methods"].append(func_json)
         merged_json["fields"].append(var_json)
-        merged_json["conforms_to"].append(protocol_json)
+        merged_json["implements"].append(protocol_json)
         merged_json["inherits"].append(parents)
         merged_json["methods"].append(init_json)
         merged_json["typealiases"].append(typealias_json)

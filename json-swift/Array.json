@@ -1313,7 +1313,7 @@
       }
     ]
   ],
-  "conforms_to": [
+  "implements": [
     [
       {
         "name": "AppExtensionScene",
