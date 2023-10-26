@@ -4,314 +4,331 @@
   "name": "NSMutableArray",
   "type_parameters": "[]",
   "methods": [
-    [
-      {
-        "name": "add",
-        "type parameters": null,
-        "parameters": "Any",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "addObjects",
-        "type parameters": null,
-        "parameters": "from: [Any]",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "insert",
-        "type parameters": null,
-        "parameters": "Any, at: Int",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "insert",
-        "type parameters": null,
-        "parameters": "[Any], at: IndexSet",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "removeAllObjects",
-        "type parameters": null,
-        "parameters": "",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "removeLastObject",
-        "type parameters": null,
-        "parameters": "",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "remove",
-        "type parameters": null,
-        "parameters": "Any",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "remove",
-        "type parameters": null,
-        "parameters": "Any, in: NSRange",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "removeObject",
-        "type parameters": null,
-        "parameters": "at: Int",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "removeObjects",
-        "type parameters": null,
-        "parameters": "at: IndexSet",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "removeObject",
-        "type parameters": null,
-        "parameters": "identicalTo: Any",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "removeObject",
-        "type parameters": null,
-        "parameters": "identicalTo: Any, in: NSRange",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "removeObjects",
-        "type parameters": null,
-        "parameters": "in: [Any]",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "removeObjects",
-        "type parameters": null,
-        "parameters": "in: NSRange",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "replaceObject",
-        "type parameters": null,
-        "parameters": "at: Int, with: Any",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "replaceObjects",
-        "type parameters": null,
-        "parameters": "at: IndexSet, with: [Any]",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "replaceObjects",
-        "type parameters": null,
-        "parameters": "in: NSRange, withObjectsFrom: [Any], range: NSRange",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "replaceObjects",
-        "type parameters": null,
-        "parameters": "in: NSRange, withObjectsFrom: [Any]",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "setArray",
-        "type parameters": null,
-        "parameters": "[Any]",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "filter",
-        "type parameters": null,
-        "parameters": "using: NSPredicate",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "exchangeObject",
-        "type parameters": null,
-        "parameters": "at: Int, withObjectAt: Int",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "sort",
-        "type parameters": null,
-        "parameters": "using: [NSSortDescriptor]",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "sort",
-        "type parameters": null,
-        "parameters": "comparator: (Any, Any) -> ComparisonResult",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "sort",
-        "type parameters": null,
-        "parameters": "options: NSSortOptions, usingComparator: (Any, Any) -> ComparisonResult",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "sort",
-        "type parameters": null,
-        "parameters": "(Any, Any, UnsafeMutableRawPointer?) -> Int, context: UnsafeMutableRawPointer?",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "sort",
-        "type parameters": null,
-        "parameters": "using: Selector",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      }
-    ],
-    [
-      {
-        "name": "init",
-        "type parameters": null,
-        "parameters": "",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "true"
-      },
-      {
-        "name": "init",
-        "type parameters": null,
-        "parameters": "capacity: Int",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "true"
-      },
-      {
-        "name": "init?",
-        "type parameters": null,
-        "parameters": "coder: NSCoder",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "true"
-      }
-    ]
+    {
+      "name": "add",
+      "type parameters": null,
+      "parameters": "Any",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "addObjects",
+      "type parameters": null,
+      "parameters": "from: [Any]",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "type parameters": null,
+      "parameters": "Any, at: Int",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "type parameters": null,
+      "parameters": "[Any], at: IndexSet",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removeAllObjects",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removeLastObject",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "remove",
+      "type parameters": null,
+      "parameters": "Any",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "remove",
+      "type parameters": null,
+      "parameters": "Any, in: NSRange",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removeObject",
+      "type parameters": null,
+      "parameters": "at: Int",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removeObjects",
+      "type parameters": null,
+      "parameters": "at: IndexSet",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removeObject",
+      "type parameters": null,
+      "parameters": "identicalTo: Any",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removeObject",
+      "type parameters": null,
+      "parameters": "identicalTo: Any, in: NSRange",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removeObjects",
+      "type parameters": null,
+      "parameters": "in: [Any]",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removeObjects",
+      "type parameters": null,
+      "parameters": "in: NSRange",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "replaceObject",
+      "type parameters": null,
+      "parameters": "at: Int, with: Any",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "replaceObjects",
+      "type parameters": null,
+      "parameters": "at: IndexSet, with: [Any]",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "replaceObjects",
+      "type parameters": null,
+      "parameters": "in: NSRange, withObjectsFrom: [Any], range: NSRange",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "replaceObjects",
+      "type parameters": null,
+      "parameters": "in: NSRange, withObjectsFrom: [Any]",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "setArray",
+      "type parameters": null,
+      "parameters": "[Any]",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "filter",
+      "type parameters": null,
+      "parameters": "using: NSPredicate",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "exchangeObject",
+      "type parameters": null,
+      "parameters": "at: Int, withObjectAt: Int",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "sort",
+      "type parameters": null,
+      "parameters": "using: [NSSortDescriptor]",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "sort",
+      "type parameters": null,
+      "parameters": "comparator: (Any, Any) -> ComparisonResult",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "sort",
+      "type parameters": null,
+      "parameters": "options: NSSortOptions, usingComparator: (Any, Any) -> ComparisonResult",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "sort",
+      "type parameters": null,
+      "parameters": "(Any, Any, UnsafeMutableRawPointer?) -> Int, context: UnsafeMutableRawPointer?",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "sort",
+      "type parameters": null,
+      "parameters": "using: Selector",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "init",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "true",
+      "access_mod": "public"
+    },
+    {
+      "name": "init",
+      "type parameters": null,
+      "parameters": "capacity: Int",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "true",
+      "access_mod": "public"
+    },
+    {
+      "name": "init?",
+      "type parameters": null,
+      "parameters": "coder: NSCoder",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "true",
+      "access_mod": "public"
+    }
   ],
-  "fields": [
-    []
-  ],
-  "implements": [
-    []
-  ],
-  "typealiases": [
-    []
-  ],
+  "fields": [],
+  "implements": [],
+  "typealiases": [],
   "inherits": [
-    [
-      "NSArray"
-    ]
+    "NSArray"
   ],
   "language": "swift"
 }

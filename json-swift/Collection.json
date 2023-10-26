@@ -1,0 +1,509 @@
+{
+  "frozen": "false",
+  "data_type": "protocol",
+  "name": "Collection",
+  "type_parameters": "['Element']",
+  "methods": [
+    {
+      "name": "subscript",
+      "type parameters": null,
+      "parameters": "Self.Index",
+      "throws": "false",
+      "return_type": "Self.Element",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "popFirst",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": "Self.Element?",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removeFirst",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": "Self.Element",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removeFirst",
+      "type parameters": null,
+      "parameters": "Int",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "index",
+      "type parameters": null,
+      "parameters": "after: Self.Index",
+      "throws": "false",
+      "return_type": "Self.Index",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "formIndex",
+      "type parameters": null,
+      "parameters": "inout Self.Index, offsetBy: Int",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "formIndex",
+      "type parameters": null,
+      "parameters": "inout Self.Index, offsetBy: Int, limitedBy: Self.Index",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "makeIterator",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": "Self.Iterator",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "contains",
+      "type parameters": "C",
+      "parameters": "C",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "distance",
+      "type parameters": null,
+      "parameters": "from: Self.Index, to: Self.Index",
+      "throws": "false",
+      "return_type": "Int",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "drop",
+      "type parameters": null,
+      "parameters": "while: (Self.Element) throws -> Bool",
+      "throws": "true",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "dropFirst",
+      "type parameters": null,
+      "parameters": "Int",
+      "throws": "false",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "dropLast",
+      "type parameters": null,
+      "parameters": "Int",
+      "throws": "false",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "firstIndex",
+      "type parameters": null,
+      "parameters": "of: Self.Element",
+      "throws": "false",
+      "return_type": "Self.Index?",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "firstIndex",
+      "type parameters": null,
+      "parameters": "where: (Self.Element) throws -> Bool",
+      "throws": "true",
+      "return_type": "Self.Index?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "firstRange",
+      "type parameters": "C",
+      "parameters": "of: C",
+      "throws": "false",
+      "return_type": "Range<Self.Index>?",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "type parameters": null,
+      "parameters": "(Self.Element) throws -> String?",
+      "throws": "true",
+      "return_type": "[String]",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "formIndex",
+      "type parameters": "T",
+      "parameters": "inout Self.Index, offsetBy: T",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "formIndex",
+      "type parameters": "T",
+      "parameters": "inout Self.Index, offsetBy: T, limitedBy: Self.Index",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "formIndex",
+      "type parameters": null,
+      "parameters": "after: inout Self.Index",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "index",
+      "type parameters": null,
+      "parameters": "Self.Index, offsetBy: Int",
+      "throws": "false",
+      "return_type": "Self.Index",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "index",
+      "type parameters": null,
+      "parameters": "Self.Index, offsetBy: Int, limitedBy: Self.Index",
+      "throws": "false",
+      "return_type": "Self.Index?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "index",
+      "type parameters": null,
+      "parameters": "of: Self.Element",
+      "throws": "false",
+      "return_type": "Self.Index?",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "type parameters": "T",
+      "parameters": "(Self.Element) throws -> T",
+      "throws": "true",
+      "return_type": "[T]",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "prefix",
+      "type parameters": null,
+      "parameters": "Int",
+      "throws": "false",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "prefix",
+      "type parameters": null,
+      "parameters": "through: Self.Index",
+      "throws": "false",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "prefix",
+      "type parameters": null,
+      "parameters": "upTo: Self.Index",
+      "throws": "false",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "prefix",
+      "type parameters": null,
+      "parameters": "while: (Self.Element) throws -> Bool",
+      "throws": "true",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "randomElement",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": "Self.Element?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "randomElement",
+      "type parameters": "T",
+      "parameters": "using: inout T",
+      "throws": "false",
+      "return_type": "Self.Element?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "ranges",
+      "type parameters": "C",
+      "parameters": "of: C",
+      "throws": "false",
+      "return_type": "[Range<Self.Index>]",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "split",
+      "type parameters": null,
+      "parameters": "maxSplits: Int, omittingEmptySubsequences: Bool, whereSeparator: (Self.Element) throws -> Bool",
+      "throws": "true",
+      "return_type": "[Self.SubSequence]",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "split",
+      "type parameters": null,
+      "parameters": "separator: Self.Element, maxSplits: Int, omittingEmptySubsequences: Bool",
+      "throws": "false",
+      "return_type": "[Self.SubSequence]",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "split",
+      "type parameters": "C",
+      "parameters": "separator: C, maxSplits: Int, omittingEmptySubsequences: Bool",
+      "throws": "false",
+      "return_type": "[Self.SubSequence]",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "suffix",
+      "type parameters": null,
+      "parameters": "Int",
+      "throws": "false",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "suffix",
+      "type parameters": null,
+      "parameters": "from: Self.Index",
+      "throws": "false",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "trimPrefix",
+      "type parameters": "Prefix",
+      "parameters": "Prefix",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "trimPrefix",
+      "type parameters": null,
+      "parameters": "while: (Self.Element) throws -> Bool",
+      "throws": "true",
+      "return_type": null,
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "trimmingPrefix",
+      "type parameters": "Prefix",
+      "parameters": "Prefix",
+      "throws": "false",
+      "return_type": "Self.SubSequence",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "trimmingPrefix",
+      "type parameters": null,
+      "parameters": "while: (Self.Element) throws -> Bool",
+      "throws": "true",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "subscript",
+      "type parameters": null,
+      "parameters": "Range<Self.Index>",
+      "throws": "false",
+      "return_type": "Self.SubSequence",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "startIndex",
+      "return_type": "Self.Index",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "endIndex",
+      "return_type": "Self.Index",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "indices",
+      "return_type": "Self.Indices",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "count",
+      "return_type": "Int",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "first",
+      "return_type": "Self.Element?",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "isEmpty",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    }
+  ],
+  "implements": [],
+  "typealiases": [],
+  "inherits": [
+    "Sequence"
+  ],
+  "language": "swift"
+}

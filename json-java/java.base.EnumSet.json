@@ -1,0 +1,224 @@
+{
+  "name": "java.base.EnumSet",
+  "type_parameters": [
+    "E extends java.lang.Enum<E>"
+  ],
+  "implements": [
+    "java.lang.Cloneable",
+    "java.io.Serializable"
+  ],
+  "inherits": [
+    "java.util.AbstractSet<E>"
+  ],
+  "class_type": 2,
+  "methods": [
+    {
+      "name": "clone",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "copyOf",
+      "parameters": [
+        "java.util.Collection<E>"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "noneOf",
+      "parameters": [
+        "java.lang.Class<E>"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "of",
+      "parameters": [
+        "E",
+        "E"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "of",
+      "parameters": [
+        "E",
+        "E",
+        "E"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "of",
+      "parameters": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "allOf",
+      "parameters": [
+        "java.lang.Class<E>"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "complementOf",
+      "parameters": [
+        "java.util.EnumSet<E>"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "copyOf",
+      "parameters": [
+        "java.util.EnumSet<E>"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "of",
+      "parameters": [
+        "E"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "of",
+      "parameters": [
+        "E",
+        "E..."
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "of",
+      "parameters": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "range",
+      "parameters": [
+        "E",
+        "E"
+      ],
+      "type_parameters": [
+        "E extends java.lang.Enum<E>"
+      ],
+      "return_type": "java.util.EnumSet<E>",
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    }
+  ],
+  "fields": [],
+  "functional_interface": false,
+  "parent": null,
+  "access_mod": "public",
+  "language": "java"
+}

@@ -4,798 +4,868 @@
   "name": "StringProtocol",
   "type_parameters": "[]",
   "methods": [
-    [
-      {
-        "name": "!=",
-        "type parameters": "RHS",
-        "parameters": "Self, RHS",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "true",
-        "is_constructor": "false"
-      },
-      {
-        "name": "addingPercentEncoding",
-        "type parameters": null,
-        "parameters": "withAllowedCharacters: CharacterSet",
-        "throws": "false",
-        "return_type": "String?",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "addingPercentEscapes",
-        "type parameters": null,
-        "parameters": "using: String.Encoding",
-        "throws": "false",
-        "return_type": "String?",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "appending",
-        "type parameters": null,
-        "parameters": "some StringProtocol",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "appendingFormat",
-        "type parameters": "T",
-        "parameters": "T, CVarArg...",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "applyingTransform",
-        "type parameters": null,
-        "parameters": "StringTransform, reverse: Bool",
-        "throws": "false",
-        "return_type": "String?",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "cString",
-        "type parameters": null,
-        "parameters": "using: String.Encoding",
-        "throws": "false",
-        "return_type": "[CChar]?",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "canBeConverted",
-        "type parameters": null,
-        "parameters": "to: String.Encoding",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "capitalized",
-        "type parameters": null,
-        "parameters": "with: Locale?",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "caseInsensitiveCompare",
-        "type parameters": "T",
-        "parameters": "T",
-        "throws": "false",
-        "return_type": "ComparisonResult",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "commonPrefix",
-        "type parameters": "T",
-        "parameters": "with: T, options: String.CompareOptions",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "compare",
-        "type parameters": "T",
-        "parameters": "T, options: String.CompareOptions, range: Range<Self.Index>?, locale: Locale?",
-        "throws": "false",
-        "return_type": "ComparisonResult",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "completePath",
-        "type parameters": null,
-        "parameters": "into: UnsafeMutablePointer<String>?, caseSensitive: Bool, matchesInto: UnsafeMutablePointer<[String]>?, filterTypes: [String]?",
-        "throws": "false",
-        "return_type": "Int",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "components",
-        "type parameters": null,
-        "parameters": "separatedBy: CharacterSet",
-        "throws": "false",
-        "return_type": "[String]",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "components",
-        "type parameters": "T",
-        "parameters": "separatedBy: T",
-        "throws": "false",
-        "return_type": "[String]",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "contains",
-        "type parameters": "T",
-        "parameters": "T",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "contains",
-        "type parameters": null,
-        "parameters": "String",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "contains",
-        "type parameters": null,
-        "parameters": "Substring",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "data",
-        "type parameters": null,
-        "parameters": "using: String.Encoding, allowLossyConversion: Bool",
-        "throws": "false",
-        "return_type": "Data?",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "enumerateLines",
-        "type parameters": null,
-        "parameters": "invoking: (String, inout Bool) -> Void",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "enumerateLinguisticTags",
-        "type parameters": "T, R",
-        "parameters": "in: R, scheme: T, options: NSLinguisticTagger.Options, orthography: NSOrthography?, invoking: (String, Range<Self.Index>, Range<Self.Index>, inout Bool) -> Void",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "enumerateSubstrings",
-        "type parameters": "R",
-        "parameters": "in: R, options: String.EnumerationOptions, (String?, Range<Self.Index>, Range<Self.Index>, inout Bool) -> Void",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "folding",
-        "type parameters": null,
-        "parameters": "options: String.CompareOptions, locale: Locale?",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "getBytes",
-        "type parameters": "R",
-        "parameters": "inout [UInt8], maxLength: Int, usedLength: UnsafeMutablePointer<Int>, encoding: String.Encoding, options: String.EncodingConversionOptions, range: R, remaining: UnsafeMutablePointer<Range<Self.Index>>",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "getCString",
-        "type parameters": null,
-        "parameters": "inout [CChar], maxLength: Int, encoding: String.Encoding",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "getLineStart",
-        "type parameters": null,
-        "parameters": "UnsafeMutablePointer<Self.Index>, end: UnsafeMutablePointer<Self.Index>, contentsEnd: UnsafeMutablePointer<Self.Index>, for: some RangeExpression<String.Index>",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "getParagraphStart",
-        "type parameters": null,
-        "parameters": "UnsafeMutablePointer<Self.Index>, end: UnsafeMutablePointer<Self.Index>, contentsEnd: UnsafeMutablePointer<Self.Index>, for: some RangeExpression<String.Index>",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "hasPrefix",
-        "type parameters": null,
-        "parameters": "String",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "hasSuffix",
-        "type parameters": null,
-        "parameters": "String",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "lengthOfBytes",
-        "type parameters": null,
-        "parameters": "using: String.Encoding",
-        "throws": "false",
-        "return_type": "Int",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "lineRange",
-        "type parameters": null,
-        "parameters": "for: some RangeExpression<String.Index>",
-        "throws": "false",
-        "return_type": "Range<Self.Index>",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "linguisticTags",
-        "type parameters": "T, R",
-        "parameters": "in: R, scheme: T, options: NSLinguisticTagger.Options, orthography: NSOrthography?, tokenRanges: UnsafeMutablePointer<[Range<Self.Index>]>?",
-        "throws": "false",
-        "return_type": "[String]",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "localizedCaseInsensitiveCompare",
-        "type parameters": "T",
-        "parameters": "T",
-        "throws": "false",
-        "return_type": "ComparisonResult",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "localizedCaseInsensitiveContains",
-        "type parameters": "T",
-        "parameters": "T",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "localizedCompare",
-        "type parameters": "T",
-        "parameters": "T",
-        "throws": "false",
-        "return_type": "ComparisonResult",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "localizedStandardCompare",
-        "type parameters": "T",
-        "parameters": "T",
-        "throws": "false",
-        "return_type": "ComparisonResult",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "localizedStandardContains",
-        "type parameters": "T",
-        "parameters": "T",
-        "throws": "false",
-        "return_type": "Bool",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "localizedStandardRange",
-        "type parameters": "T",
-        "parameters": "of: T",
-        "throws": "false",
-        "return_type": "Range<Self.Index>?",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "lowercased",
-        "type parameters": null,
-        "parameters": "",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "lowercased",
-        "type parameters": null,
-        "parameters": "with: Locale?",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "maximumLengthOfBytes",
-        "type parameters": null,
-        "parameters": "using: String.Encoding",
-        "throws": "false",
-        "return_type": "Int",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "padding",
-        "type parameters": "T",
-        "parameters": "toLength: Int, withPad: T, startingAt: Int",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "paragraphRange",
-        "type parameters": null,
-        "parameters": "for: some RangeExpression<String.Index>",
-        "throws": "false",
-        "return_type": "Range<Self.Index>",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "propertyList",
-        "type parameters": null,
-        "parameters": "",
-        "throws": "false",
-        "return_type": "Any",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "propertyListFromStringsFileFormat",
-        "type parameters": null,
-        "parameters": "",
-        "throws": "false",
-        "return_type": "[String : String]",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "range",
-        "type parameters": "T",
-        "parameters": "of: T, options: String.CompareOptions, range: Range<Self.Index>?, locale: Locale?",
-        "throws": "false",
-        "return_type": "Range<Self.Index>?",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "rangeOfCharacter",
-        "type parameters": null,
-        "parameters": "from: CharacterSet, options: String.CompareOptions, range: Range<Self.Index>?",
-        "throws": "false",
-        "return_type": "Range<Self.Index>?",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "rangeOfComposedCharacterSequence",
-        "type parameters": null,
-        "parameters": "at: Self.Index",
-        "throws": "false",
-        "return_type": "Range<Self.Index>",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "rangeOfComposedCharacterSequences",
-        "type parameters": "R",
-        "parameters": "for: R",
-        "throws": "false",
-        "return_type": "Range<Self.Index>",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "replacingCharacters",
-        "type parameters": "T, R",
-        "parameters": "in: R, with: T",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "replacingOccurrences",
-        "type parameters": "Target, Replacement",
-        "parameters": "of: Target, with: Replacement, options: String.CompareOptions, range: Range<Self.Index>?",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "replacingPercentEscapes",
-        "type parameters": null,
-        "parameters": "using: String.Encoding",
-        "throws": "false",
-        "return_type": "String?",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "split",
-        "type parameters": null,
-        "parameters": "separator: String, maxSplits: Int, omittingEmptySubsequences: Bool",
-        "throws": "false",
-        "return_type": "[Substring]",
-        "conditional": "true",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "split",
-        "type parameters": null,
-        "parameters": "separator: Substring, maxSplits: Int, omittingEmptySubsequences: Bool",
-        "throws": "false",
-        "return_type": "[Substring]",
-        "conditional": "true",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "substring",
-        "type parameters": null,
-        "parameters": "from: Self.Index",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "substring",
-        "type parameters": null,
-        "parameters": "to: Self.Index",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "substring",
-        "type parameters": null,
-        "parameters": "with: Range<Self.Index>",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "trimmingCharacters",
-        "type parameters": null,
-        "parameters": "in: CharacterSet",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "uppercased",
-        "type parameters": null,
-        "parameters": "",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "uppercased",
-        "type parameters": null,
-        "parameters": "with: Locale?",
-        "throws": "false",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "withCString",
-        "type parameters": "Result",
-        "parameters": "(UnsafePointer<CChar>) throws -> Result",
-        "throws": "true",
-        "return_type": "Result",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "withCString",
-        "type parameters": "Result, Encoding",
-        "parameters": "encodedAs: Encoding.Type, (UnsafePointer<Encoding.CodeUnit>) throws -> Result",
-        "throws": "true",
-        "return_type": "Result",
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "write",
-        "type parameters": null,
-        "parameters": "to: URL, atomically: Bool, encoding: String.Encoding",
-        "throws": "true",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      },
-      {
-        "name": "write",
-        "type parameters": "T",
-        "parameters": "toFile: T, atomically: Bool, encoding: String.Encoding",
-        "throws": "true",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      }
-    ],
-    [
-      {
-        "name": "init",
-        "type parameters": null,
-        "parameters": "cString: UnsafePointer<CChar>",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "true"
-      },
-      {
-        "name": "init",
-        "type parameters": "C, Encoding",
-        "parameters": "decoding: C, as: Encoding.Type",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "true"
-      },
-      {
-        "name": "init",
-        "type parameters": "Encoding",
-        "parameters": "decodingCString: UnsafePointer<Encoding.CodeUnit>, as: Encoding.Type",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "true"
-      }
-    ]
+    {
+      "name": "!=",
+      "type parameters": "RHS",
+      "parameters": "Self, RHS",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "true",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "addingPercentEncoding",
+      "type parameters": null,
+      "parameters": "withAllowedCharacters: CharacterSet",
+      "throws": "false",
+      "return_type": "String?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "addingPercentEscapes",
+      "type parameters": null,
+      "parameters": "using: String.Encoding",
+      "throws": "false",
+      "return_type": "String?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "appending",
+      "type parameters": null,
+      "parameters": "some StringProtocol",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "appendingFormat",
+      "type parameters": "T",
+      "parameters": "T, CVarArg...",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "applyingTransform",
+      "type parameters": null,
+      "parameters": "StringTransform, reverse: Bool",
+      "throws": "false",
+      "return_type": "String?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "cString",
+      "type parameters": null,
+      "parameters": "using: String.Encoding",
+      "throws": "false",
+      "return_type": "[CChar]?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "canBeConverted",
+      "type parameters": null,
+      "parameters": "to: String.Encoding",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "capitalized",
+      "type parameters": null,
+      "parameters": "with: Locale?",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "caseInsensitiveCompare",
+      "type parameters": "T",
+      "parameters": "T",
+      "throws": "false",
+      "return_type": "ComparisonResult",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "commonPrefix",
+      "type parameters": "T",
+      "parameters": "with: T, options: String.CompareOptions",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "compare",
+      "type parameters": "T",
+      "parameters": "T, options: String.CompareOptions, range: Range<Self.Index>?, locale: Locale?",
+      "throws": "false",
+      "return_type": "ComparisonResult",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "completePath",
+      "type parameters": null,
+      "parameters": "into: UnsafeMutablePointer<String>?, caseSensitive: Bool, matchesInto: UnsafeMutablePointer<[String]>?, filterTypes: [String]?",
+      "throws": "false",
+      "return_type": "Int",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "components",
+      "type parameters": null,
+      "parameters": "separatedBy: CharacterSet",
+      "throws": "false",
+      "return_type": "[String]",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "components",
+      "type parameters": "T",
+      "parameters": "separatedBy: T",
+      "throws": "false",
+      "return_type": "[String]",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "contains",
+      "type parameters": "T",
+      "parameters": "T",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "contains",
+      "type parameters": null,
+      "parameters": "String",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "contains",
+      "type parameters": null,
+      "parameters": "Substring",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "data",
+      "type parameters": null,
+      "parameters": "using: String.Encoding, allowLossyConversion: Bool",
+      "throws": "false",
+      "return_type": "Data?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "enumerateLines",
+      "type parameters": null,
+      "parameters": "invoking: (String, inout Bool) -> Void",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "enumerateLinguisticTags",
+      "type parameters": "T, R",
+      "parameters": "in: R, scheme: T, options: NSLinguisticTagger.Options, orthography: NSOrthography?, invoking: (String, Range<Self.Index>, Range<Self.Index>, inout Bool) -> Void",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "enumerateSubstrings",
+      "type parameters": "R",
+      "parameters": "in: R, options: String.EnumerationOptions, (String?, Range<Self.Index>, Range<Self.Index>, inout Bool) -> Void",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "folding",
+      "type parameters": null,
+      "parameters": "options: String.CompareOptions, locale: Locale?",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "getBytes",
+      "type parameters": "R",
+      "parameters": "inout [UInt8], maxLength: Int, usedLength: UnsafeMutablePointer<Int>, encoding: String.Encoding, options: String.EncodingConversionOptions, range: R, remaining: UnsafeMutablePointer<Range<Self.Index>>",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "getCString",
+      "type parameters": null,
+      "parameters": "inout [CChar], maxLength: Int, encoding: String.Encoding",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "getLineStart",
+      "type parameters": null,
+      "parameters": "UnsafeMutablePointer<Self.Index>, end: UnsafeMutablePointer<Self.Index>, contentsEnd: UnsafeMutablePointer<Self.Index>, for: some RangeExpression<String.Index>",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "getParagraphStart",
+      "type parameters": null,
+      "parameters": "UnsafeMutablePointer<Self.Index>, end: UnsafeMutablePointer<Self.Index>, contentsEnd: UnsafeMutablePointer<Self.Index>, for: some RangeExpression<String.Index>",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "hasPrefix",
+      "type parameters": null,
+      "parameters": "String",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "hasSuffix",
+      "type parameters": null,
+      "parameters": "String",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "lengthOfBytes",
+      "type parameters": null,
+      "parameters": "using: String.Encoding",
+      "throws": "false",
+      "return_type": "Int",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "lineRange",
+      "type parameters": null,
+      "parameters": "for: some RangeExpression<String.Index>",
+      "throws": "false",
+      "return_type": "Range<Self.Index>",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "linguisticTags",
+      "type parameters": "T, R",
+      "parameters": "in: R, scheme: T, options: NSLinguisticTagger.Options, orthography: NSOrthography?, tokenRanges: UnsafeMutablePointer<[Range<Self.Index>]>?",
+      "throws": "false",
+      "return_type": "[String]",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "localizedCaseInsensitiveCompare",
+      "type parameters": "T",
+      "parameters": "T",
+      "throws": "false",
+      "return_type": "ComparisonResult",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "localizedCaseInsensitiveContains",
+      "type parameters": "T",
+      "parameters": "T",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "localizedCompare",
+      "type parameters": "T",
+      "parameters": "T",
+      "throws": "false",
+      "return_type": "ComparisonResult",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "localizedStandardCompare",
+      "type parameters": "T",
+      "parameters": "T",
+      "throws": "false",
+      "return_type": "ComparisonResult",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "localizedStandardContains",
+      "type parameters": "T",
+      "parameters": "T",
+      "throws": "false",
+      "return_type": "Bool",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "localizedStandardRange",
+      "type parameters": "T",
+      "parameters": "of: T",
+      "throws": "false",
+      "return_type": "Range<Self.Index>?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "lowercased",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "lowercased",
+      "type parameters": null,
+      "parameters": "with: Locale?",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "maximumLengthOfBytes",
+      "type parameters": null,
+      "parameters": "using: String.Encoding",
+      "throws": "false",
+      "return_type": "Int",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "padding",
+      "type parameters": "T",
+      "parameters": "toLength: Int, withPad: T, startingAt: Int",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "paragraphRange",
+      "type parameters": null,
+      "parameters": "for: some RangeExpression<String.Index>",
+      "throws": "false",
+      "return_type": "Range<Self.Index>",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "propertyList",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": "Any",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "propertyListFromStringsFileFormat",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": "[String : String]",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "range",
+      "type parameters": "T",
+      "parameters": "of: T, options: String.CompareOptions, range: Range<Self.Index>?, locale: Locale?",
+      "throws": "false",
+      "return_type": "Range<Self.Index>?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "rangeOfCharacter",
+      "type parameters": null,
+      "parameters": "from: CharacterSet, options: String.CompareOptions, range: Range<Self.Index>?",
+      "throws": "false",
+      "return_type": "Range<Self.Index>?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "rangeOfComposedCharacterSequence",
+      "type parameters": null,
+      "parameters": "at: Self.Index",
+      "throws": "false",
+      "return_type": "Range<Self.Index>",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "rangeOfComposedCharacterSequences",
+      "type parameters": "R",
+      "parameters": "for: R",
+      "throws": "false",
+      "return_type": "Range<Self.Index>",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "replacingCharacters",
+      "type parameters": "T, R",
+      "parameters": "in: R, with: T",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "replacingOccurrences",
+      "type parameters": "Target, Replacement",
+      "parameters": "of: Target, with: Replacement, options: String.CompareOptions, range: Range<Self.Index>?",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "replacingPercentEscapes",
+      "type parameters": null,
+      "parameters": "using: String.Encoding",
+      "throws": "false",
+      "return_type": "String?",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "split",
+      "type parameters": null,
+      "parameters": "separator: String, maxSplits: Int, omittingEmptySubsequences: Bool",
+      "throws": "false",
+      "return_type": "[Substring]",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "split",
+      "type parameters": null,
+      "parameters": "separator: Substring, maxSplits: Int, omittingEmptySubsequences: Bool",
+      "throws": "false",
+      "return_type": "[Substring]",
+      "conditional": "true",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "substring",
+      "type parameters": null,
+      "parameters": "from: Self.Index",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "substring",
+      "type parameters": null,
+      "parameters": "to: Self.Index",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "substring",
+      "type parameters": null,
+      "parameters": "with: Range<Self.Index>",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "trimmingCharacters",
+      "type parameters": null,
+      "parameters": "in: CharacterSet",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "uppercased",
+      "type parameters": null,
+      "parameters": "",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "uppercased",
+      "type parameters": null,
+      "parameters": "with: Locale?",
+      "throws": "false",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "withCString",
+      "type parameters": "Result",
+      "parameters": "(UnsafePointer<CChar>) throws -> Result",
+      "throws": "true",
+      "return_type": "Result",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "withCString",
+      "type parameters": "Result, Encoding",
+      "parameters": "encodedAs: Encoding.Type, (UnsafePointer<Encoding.CodeUnit>) throws -> Result",
+      "throws": "true",
+      "return_type": "Result",
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "write",
+      "type parameters": null,
+      "parameters": "to: URL, atomically: Bool, encoding: String.Encoding",
+      "throws": "true",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "write",
+      "type parameters": "T",
+      "parameters": "toFile: T, atomically: Bool, encoding: String.Encoding",
+      "throws": "true",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "init",
+      "type parameters": null,
+      "parameters": "cString: UnsafePointer<CChar>",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "true",
+      "access_mod": "public"
+    },
+    {
+      "name": "init",
+      "type parameters": "C, Encoding",
+      "parameters": "decoding: C, as: Encoding.Type",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "true",
+      "access_mod": "public"
+    },
+    {
+      "name": "init",
+      "type parameters": "Encoding",
+      "parameters": "decodingCString: UnsafePointer<Encoding.CodeUnit>, as: Encoding.Type",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "true",
+      "access_mod": "public"
+    }
   ],
   "fields": [
-    [
-      {
-        "name": "capitalized",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "decomposedStringWithCanonicalMapping",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "decomposedStringWithCompatibilityMapping",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "fastestEncoding",
-        "return_type": "String.Encoding",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "hash",
-        "return_type": "Int",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "localizedCapitalized",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "localizedLowercase",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "localizedUppercase",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "precomposedStringWithCanonicalMapping",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "precomposedStringWithCompatibilityMapping",
-        "return_type": "String",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "removingPercentEncoding",
-        "return_type": "String?",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "smallestEncoding",
-        "return_type": "String.Encoding",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "unicodeScalars",
-        "return_type": "Self.UnicodeScalarView",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "utf16",
-        "return_type": "Self.UTF16View",
-        "conditional": "false",
-        "static": "false"
-      },
-      {
-        "name": "utf8",
-        "return_type": "Self.UTF8View",
-        "conditional": "false",
-        "static": "false"
-      }
-    ]
+    {
+      "name": "capitalized",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "decomposedStringWithCanonicalMapping",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "decomposedStringWithCompatibilityMapping",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "fastestEncoding",
+      "return_type": "String.Encoding",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "hash",
+      "return_type": "Int",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "localizedCapitalized",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "localizedLowercase",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "localizedUppercase",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "precomposedStringWithCanonicalMapping",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "precomposedStringWithCompatibilityMapping",
+      "return_type": "String",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "removingPercentEncoding",
+      "return_type": "String?",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "smallestEncoding",
+      "return_type": "String.Encoding",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "unicodeScalars",
+      "return_type": "Self.UnicodeScalarView",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "utf16",
+      "return_type": "Self.UTF16View",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    },
+    {
+      "name": "utf8",
+      "return_type": "Self.UTF8View",
+      "conditional": "false",
+      "static": "false",
+      "access_mod": "public"
+    }
   ],
-  "implements": [
-    []
-  ],
-  "typealiases": [
-    []
-  ],
+  "implements": [],
+  "typealiases": [],
   "inherits": [
-    [
-      "BidirectionalCollection",
-      "Collection",
-      "Comparable",
-      "CustomStringConvertible",
-      "Equatable",
-      "ExpressibleByExtendedGraphemeClusterLiteral",
-      "ExpressibleByStringInterpolation",
-      "ExpressibleByStringLiteral",
-      "ExpressibleByUnicodeScalarLiteral",
-      "Hashable",
-      "LosslessStringConvertible",
-      "Sequence",
-      "TextOutputStream",
-      "TextOutputStreamable"
-    ]
+    "BidirectionalCollection",
+    "Collection",
+    "Comparable",
+    "CustomStringConvertible",
+    "Equatable",
+    "ExpressibleByExtendedGraphemeClusterLiteral",
+    "ExpressibleByStringInterpolation",
+    "ExpressibleByStringLiteral",
+    "ExpressibleByUnicodeScalarLiteral",
+    "Hashable",
+    "LosslessStringConvertible",
+    "Sequence",
+    "TextOutputStream",
+    "TextOutputStreamable"
   ],
   "language": "swift"
 }

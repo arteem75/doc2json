@@ -1,0 +1,114 @@
+{
+  "name": "java.base.Formatter",
+  "type_parameters": [],
+  "implements": [
+    "java.io.Closeable",
+    "java.io.Flushable"
+  ],
+  "inherits": [
+    "java.lang.Object"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "flush",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "void",
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "format",
+      "parameters": [
+        "java.util.Locale",
+        "java.lang.String",
+        "java.lang.Object..."
+      ],
+      "type_parameters": [],
+      "return_type": "java.util.Formatter",
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "locale",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.util.Locale",
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.lang.String",
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "close",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "void",
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "format",
+      "parameters": [
+        "java.lang.String",
+        "java.lang.Object..."
+      ],
+      "type_parameters": [],
+      "return_type": "java.util.Formatter",
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "ioException",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.io.IOException",
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    },
+    {
+      "name": "out",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.lang.Appendable",
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public",
+      "throws": [],
+      "is_default": false
+    }
+  ],
+  "fields": [],
+  "functional_interface": false,
+  "parent": null,
+  "access_mod": "public",
+  "language": "java"
+}

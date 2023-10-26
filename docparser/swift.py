@@ -38,7 +38,7 @@ class SwiftAPIDocConverter(APIDocConverter):
         out_init = []
         out_typealias = []
         for elem,cond in extracted_elements:
-                if elem.startswith('func ') or elem.startswith('static func ') or elem.startswith('subscript'):
+                if elem.startswith('func ') or elem.startswith('static func') or elem.startswith('subscript'):
                     out_func.append((self.process_methods(elem),cond))
 
                 if elem.startswith('var' ) or elem.startswith('static var '):
@@ -68,12 +68,12 @@ class SwiftAPIDocConverter(APIDocConverter):
             "inherits":[],
             "language":"swift"
         }
-        merged_json["methods"].append(func_json)
-        merged_json["fields"].append(var_json)
-        merged_json["implements"].append(protocol_json)
-        merged_json["inherits"].append(parents)
-        merged_json["methods"].append(init_json)
-        merged_json["typealiases"].append(typealias_json)
+        merged_json["methods"]= func_json
+        merged_json["fields"] = var_json
+        merged_json["implements"] = protocol_json
+        merged_json["inherits"] = parents
+        merged_json["methods"] += init_json
+        merged_json["typealiases"] = typealias_json
 
         merged_json = {**name_json, **merged_json}
         return merged_json
@@ -98,7 +98,8 @@ class SwiftAPIDocConverter(APIDocConverter):
             "return_type": entry[4],
             "conditional": str(cond),
             "static": entry[5],
-            "is_constructor":entry[6]
+            "is_constructor":entry[6],
+            "access_mod":entry[7]
         }
             json_data.append(entry_dict)
         return json_data
@@ -112,7 +113,8 @@ class SwiftAPIDocConverter(APIDocConverter):
             "name": entry[0],
             "return_type": entry[1],
             "conditional": cond,
-            "static": entry[2]
+            "static": entry[2],
+            "access_mod":entry[3]
         }
             json_data.append(entry_dict)
         return json_data
@@ -171,11 +173,12 @@ class SwiftAPIDocConverter(APIDocConverter):
             var_name = match.group(1)
             var_type = match.group(2).strip()
             is_static = "false"
+            access_mod = "public"  #TODO need revision
             if 'static var ' in var_signature:
                 is_static = "true"
-            return [var_name, var_type, is_static]
+            return [var_name, var_type, is_static,access_mod]
         else: 
-            return [None, None,None]
+            return [None, None,None,None]
 
 
         return
@@ -187,11 +190,11 @@ class SwiftAPIDocConverter(APIDocConverter):
         #return_type_pattern = r'->\s+([\w\.\?\[\]\s]+)(?![\s\S]*->)'
         #return_type_pattern= r'->\s+([\w\.\?\[\]\s\:<>\-]+)(?![\s\S]*->)'
         #parameters_pattern = r'\(([^)]+\))'  
-
         #func_name_pattern = r'func (\w+|\+=|\+|\==|\~=|\!=|\|\||&&|-=|!)'
         func_name_pattern = r'func\s+((\w+)|([=\-\+!*%<>&|^~/.?]+))'
         #type_parameters_pattern = r'<(.+?)>'
         type_parameters_pattern = r'<((?:(?!<).)+)>\('
+        
 
         return_type_pattern= r'->\s*([\w\.\?\[\],\s\:<>\-]+)(?![\s\S]*->)'
         parameters_pattern = r'\(((?:[^()]|\((?:[^()]|\([^()]*\))*\))*)\)'
@@ -202,8 +205,8 @@ class SwiftAPIDocConverter(APIDocConverter):
         type_parameters = re.search(type_parameters_pattern, func_signature)
         parameters = re.findall(parameters_pattern, func_signature)
         throws = re.search(throws_pattern, func_signature)
+        
 
-        #check if it's a subscript i.e arr[0], if so the method name is 'subscript', else extract the name
         func_name = 'subscript' if func_signature.startswith('subscript') else re.search(func_name_pattern, func_signature)
         if func_name != 'subscript':
             func_name = func_name.group(1) if func_name else None
@@ -229,7 +232,8 @@ class SwiftAPIDocConverter(APIDocConverter):
             else:
                 print('could not process' + str(func_signature))
         #print(func_name)
-        return [func_name,type_parameters, parameters, throws, return_type,is_static,is_constructor]
+        access_mod = "public"  #TODO need revision
+        return [func_name,type_parameters, parameters, throws, return_type,is_static,is_constructor,access_mod]
 
         # extracts classes that the processed class inherits from and the protocols that the processed element conforms to
     def extract_inheritance(self,html_content):
@@ -272,7 +276,14 @@ class SwiftAPIDocConverter(APIDocConverter):
         keyword = soup.find(class_='token-keyword')
         identifier = soup.find(class_='token-identifier')
         generic_parameters = soup.findAll(class_='token-genericParameter')
+        type_identifiers = soup.find_all(class_='type-identifier-link')
         gen_par = []
+        for ti in type_identifiers:
+            # Check if the previous sibling contains '&lt;' and the next sibling contains '&gt;'
+            if ti.previous_sibling and '<' in ti.previous_sibling and ti.next_sibling and '>' in ti.next_sibling:
+                gen_par.append(ti.get_text())
+
+        
         for p in generic_parameters:
             p = p.get_text() if p else None
             gen_par.append(p)
@@ -335,7 +346,6 @@ class SwiftAPIDocConverter(APIDocConverter):
                 else:
                     results.append((code_text,"true"))
 
-        
             return results
             
 

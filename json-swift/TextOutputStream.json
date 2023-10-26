@@ -4,31 +4,21 @@
   "name": "TextOutputStream",
   "type_parameters": "[]",
   "methods": [
-    [
-      {
-        "name": "write",
-        "type parameters": null,
-        "parameters": "String",
-        "throws": "false",
-        "return_type": null,
-        "conditional": "false",
-        "static": "false",
-        "is_constructor": "false"
-      }
-    ],
-    []
+    {
+      "name": "write",
+      "type parameters": null,
+      "parameters": "String",
+      "throws": "false",
+      "return_type": null,
+      "conditional": "false",
+      "static": "false",
+      "is_constructor": "false",
+      "access_mod": "public"
+    }
   ],
-  "fields": [
-    []
-  ],
-  "implements": [
-    []
-  ],
-  "typealiases": [
-    []
-  ],
-  "inherits": [
-    []
-  ],
+  "fields": [],
+  "implements": [],
+  "typealiases": [],
+  "inherits": [],
   "language": "swift"
 }

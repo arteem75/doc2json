@@ -1,0 +1,15 @@
+{
+  "name": "java.base.InputMismatchException",
+  "type_parameters": [],
+  "implements": [],
+  "inherits": [
+    "java.util.NoSuchElementException"
+  ],
+  "class_type": 0,
+  "methods": [],
+  "fields": [],
+  "functional_interface": false,
+  "parent": null,
+  "access_mod": "public",
+  "language": "java"
+}

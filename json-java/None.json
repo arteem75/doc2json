@@ -1,0 +1,23 @@
+{
+  "frozen": "false",
+  "data_type": "None",
+  "name": "None",
+  "type_parameters": "[]",
+  "methods": [
+    [],
+    []
+  ],
+  "fields": [
+    []
+  ],
+  "implements": [
+    []
+  ],
+  "typealiases": [
+    []
+  ],
+  "inherits": [
+    []
+  ],
+  "language": "swift"
+}
