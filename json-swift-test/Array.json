@@ -10,7 +10,7 @@
       "name": "subscript",
       "type_parameters": [],
       "parameters": [
-        "Int"
+        "swift.int"
       ],
       "throws": false,
       "return_type": "Element",
@@ -23,10 +23,10 @@
       "name": "subscript",
       "type_parameters": [],
       "parameters": [
-        "Range<Int>"
+        "swift.range<swift.int>"
       ],
       "throws": false,
-      "return_type": "ArraySlice<Element>",
+      "return_type": "swift.arrayslice<Element>",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -66,7 +66,7 @@
       "name": "subscript",
       "type_parameters": [],
       "parameters": [
-        "(UnboundedRange_) -> ()"
+        "(swift.unboundedrange_) -> ()"
       ],
       "throws": false,
       "return_type": "Self.SubSequence",
@@ -121,7 +121,7 @@
       "type_parameters": [],
       "parameters": [
         "Element",
-        "at: Int"
+        "at: swift.int"
       ],
       "throws": false,
       "return_type": "void",
@@ -152,7 +152,7 @@
         "C"
       ],
       "parameters": [
-        "Range<Int>",
+        "swift.range<swift.int>",
         "with: C"
       ],
       "throws": false,
@@ -183,7 +183,7 @@
       "name": "reserveCapacity",
       "type_parameters": [],
       "parameters": [
-        "Int"
+        "swift.int"
       ],
       "throws": false,
       "return_type": "void",
@@ -258,11 +258,11 @@
       "name": "+",
       "type_parameters": [],
       "parameters": [
-        "Array<Element>",
-        "Array<Element>"
+        "swift.array<Element>",
+        "swift.array<Element>"
       ],
       "throws": false,
-      "return_type": "Array<Element>",
+      "return_type": "swift.array<Element>",
       "conditional": false,
       "is_static": true,
       "is_constructor": false,
@@ -304,8 +304,8 @@
       "name": "+=",
       "type_parameters": [],
       "parameters": [
-        "inout Array<Element>",
-        "Array<Element>"
+        "inout swift.array<Element>",
+        "swift.array<Element>"
       ],
       "throws": false,
       "return_type": "void",
@@ -318,7 +318,7 @@
       "name": "remove",
       "type_parameters": [],
       "parameters": [
-        "at: Int"
+        "at: swift.int"
       ],
       "throws": false,
       "return_type": "Element",
@@ -344,7 +344,7 @@
       "name": "removeFirst",
       "type_parameters": [],
       "parameters": [
-        "Int"
+        "swift.int"
       ],
       "throws": false,
       "return_type": "void",
@@ -370,7 +370,7 @@
       "name": "removeLast",
       "type_parameters": [],
       "parameters": [
-        "Int"
+        "swift.int"
       ],
       "throws": false,
       "return_type": "void",
@@ -383,7 +383,7 @@
       "name": "removeSubrange",
       "type_parameters": [],
       "parameters": [
-        "Range<Self.Index>"
+        "swift.range<Self.Index>"
       ],
       "throws": false,
       "return_type": "void",
@@ -411,7 +411,7 @@
       "name": "removeAll",
       "type_parameters": [],
       "parameters": [
-        "where: (Self.Element) throws -> Bool"
+        "where: (Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "void",
@@ -424,7 +424,7 @@
       "name": "removeAll",
       "type_parameters": [],
       "parameters": [
-        "keepingCapacity: Bool"
+        "keepingCapacity: swift.bool"
       ],
       "throws": false,
       "return_type": "void",
@@ -453,7 +453,7 @@
         "Self.Element"
       ],
       "throws": false,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": true,
       "is_static": false,
       "is_constructor": false,
@@ -463,10 +463,10 @@
       "name": "contains",
       "type_parameters": [],
       "parameters": [
-        "where: (Self.Element) throws -> Bool"
+        "where: (Self.Element) throws -> swift.bool"
       ],
       "throws": true,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -476,10 +476,10 @@
       "name": "allSatisfy",
       "type_parameters": [],
       "parameters": [
-        "(Self.Element) throws -> Bool"
+        "(Self.Element) throws -> swift.bool"
       ],
       "throws": true,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -489,7 +489,7 @@
       "name": "first",
       "type_parameters": [],
       "parameters": [
-        "where: (Self.Element) throws -> Bool"
+        "where: (Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "Self.Element?",
@@ -528,7 +528,7 @@
       "name": "firstIndex",
       "type_parameters": [],
       "parameters": [
-        "where: (Self.Element) throws -> Bool"
+        "where: (Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "Self.Index?",
@@ -541,7 +541,7 @@
       "name": "last",
       "type_parameters": [],
       "parameters": [
-        "where: (Self.Element) throws -> Bool"
+        "where: (Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "Self.Element?",
@@ -567,7 +567,7 @@
       "name": "lastIndex",
       "type_parameters": [],
       "parameters": [
-        "where: (Self.Element) throws -> Bool"
+        "where: (Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "Self.Index?",
@@ -593,7 +593,7 @@
       "name": "min",
       "type_parameters": [],
       "parameters": [
-        "by: (Self.Element, Self.Element) throws -> Bool"
+        "by: (Self.Element, Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "Self.Element?",
@@ -619,7 +619,7 @@
       "name": "max",
       "type_parameters": [],
       "parameters": [
-        "by: (Self.Element, Self.Element) throws -> Bool"
+        "by: (Self.Element, Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "Self.Element?",
@@ -632,7 +632,7 @@
       "name": "prefix",
       "type_parameters": [],
       "parameters": [
-        "Int"
+        "swift.int"
       ],
       "throws": false,
       "return_type": "Self.SubSequence",
@@ -671,7 +671,7 @@
       "name": "prefix",
       "type_parameters": [],
       "parameters": [
-        "while: (Self.Element) throws -> Bool"
+        "while: (Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "Self.SubSequence",
@@ -684,7 +684,7 @@
       "name": "suffix",
       "type_parameters": [],
       "parameters": [
-        "Int"
+        "swift.int"
       ],
       "throws": false,
       "return_type": "Self.SubSequence",
@@ -710,7 +710,7 @@
       "name": "dropFirst",
       "type_parameters": [],
       "parameters": [
-        "Int"
+        "swift.int"
       ],
       "throws": false,
       "return_type": "Self.SubSequence",
@@ -723,7 +723,7 @@
       "name": "dropLast",
       "type_parameters": [],
       "parameters": [
-        "Int"
+        "swift.int"
       ],
       "throws": false,
       "return_type": "Self.SubSequence",
@@ -736,7 +736,7 @@
       "name": "drop",
       "type_parameters": [],
       "parameters": [
-        "while: (Self.Element) throws -> Bool"
+        "while: (Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "Self.SubSequence",
@@ -841,7 +841,7 @@
       "name": "forEach",
       "type_parameters": [],
       "parameters": [
-        "(Self.Element) throws -> Void"
+        "(Self.Element) throws -> swift.void"
       ],
       "throws": true,
       "return_type": "void",
@@ -857,7 +857,7 @@
         ""
       ],
       "throws": false,
-      "return_type": "EnumeratedSequence<Self>",
+      "return_type": "swift.enumeratedsequence<Self>",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -870,7 +870,7 @@
         ""
       ],
       "throws": false,
-      "return_type": "IndexingIterator<Self>",
+      "return_type": "swift.indexingiterator<Self>",
       "conditional": true,
       "is_static": false,
       "is_constructor": false,
@@ -893,7 +893,7 @@
       "name": "sort",
       "type_parameters": [],
       "parameters": [
-        "by: (Self.Element, Self.Element) throws -> Bool"
+        "by: (Self.Element, Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "void",
@@ -919,7 +919,7 @@
       "name": "sorted",
       "type_parameters": [],
       "parameters": [
-        "by: (Self.Element, Self.Element) throws -> Bool"
+        "by: (Self.Element, Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "[Self.Element]",
@@ -948,7 +948,7 @@
         ""
       ],
       "throws": false,
-      "return_type": "ReversedCollection<Self>",
+      "return_type": "swift.reversedcollection<Self>",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1014,7 +1014,7 @@
       "name": "partition",
       "type_parameters": [],
       "parameters": [
-        "by: (Self.Element) throws -> Bool"
+        "by: (Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "Self.Index",
@@ -1042,8 +1042,8 @@
       "type_parameters": [],
       "parameters": [
         "separator: Self.Element",
-        "maxSplits: Int",
-        "omittingEmptySubsequences: Bool"
+        "maxSplits: swift.int",
+        "omittingEmptySubsequences: swift.bool"
       ],
       "throws": false,
       "return_type": "[Self.SubSequence]",
@@ -1056,9 +1056,9 @@
       "name": "split",
       "type_parameters": [],
       "parameters": [
-        "maxSplits: Int",
-        "omittingEmptySubsequences: Bool",
-        "whereSeparator: (Self.Element) throws -> Bool"
+        "maxSplits: swift.int",
+        "omittingEmptySubsequences: swift.bool",
+        "whereSeparator: (Self.Element) throws -> swift.bool"
       ],
       "throws": true,
       "return_type": "[Self.SubSequence]",
@@ -1074,7 +1074,7 @@
         ""
       ],
       "throws": false,
-      "return_type": "FlattenSequence<Self>",
+      "return_type": "swift.flattensequence<Self>",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1089,7 +1089,7 @@
         "separator: Separator"
       ],
       "throws": false,
-      "return_type": "JoinedSequence<Self>",
+      "return_type": "swift.joinedsequence<Self>",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1099,10 +1099,10 @@
       "name": "joined",
       "type_parameters": [],
       "parameters": [
-        "separator: String"
+        "separator: swift.string"
       ],
       "throws": false,
-      "return_type": "String",
+      "return_type": "swift.string",
       "conditional": true,
       "is_static": false,
       "is_constructor": false,
@@ -1112,10 +1112,10 @@
       "name": "joined",
       "type_parameters": [],
       "parameters": [
-        "separator: String"
+        "separator: swift.string"
       ],
       "throws": false,
-      "return_type": "String",
+      "return_type": "swift.string",
       "conditional": true,
       "is_static": false,
       "is_constructor": false,
@@ -1125,7 +1125,7 @@
       "name": "applying",
       "type_parameters": [],
       "parameters": [
-        "CollectionDifference<Self.Element>"
+        "swift.collectiondifference<Self.Element>"
       ],
       "throws": false,
       "return_type": "Self?",
@@ -1143,7 +1143,7 @@
         "from: C"
       ],
       "throws": false,
-      "return_type": "CollectionDifference<Self.Element>",
+      "return_type": "swift.collectiondifference<Self.Element>",
       "conditional": true,
       "is_static": false,
       "is_constructor": false,
@@ -1156,10 +1156,10 @@
       ],
       "parameters": [
         "from: C",
-        "by: (C.Element, Self.Element) -> Bool"
+        "by: (C.Element, Self.Element) -> swift.bool"
       ],
       "throws": false,
-      "return_type": "CollectionDifference<Self.Element>",
+      "return_type": "swift.collectiondifference<Self.Element>",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1169,11 +1169,11 @@
       "name": "==",
       "type_parameters": [],
       "parameters": [
-        "Array<Element>",
-        "Array<Element>"
+        "swift.array<Element>",
+        "swift.array<Element>"
       ],
       "throws": false,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": true,
       "is_static": true,
       "is_constructor": false,
@@ -1187,7 +1187,7 @@
         "Self"
       ],
       "throws": false,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": false,
       "is_static": true,
       "is_constructor": false,
@@ -1199,10 +1199,10 @@
         "OtherSequence"
       ],
       "parameters": [
-        "OtherSequence"
+        "Otherswift.sequence"
       ],
       "throws": false,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": true,
       "is_static": false,
       "is_constructor": false,
@@ -1214,11 +1214,11 @@
         "OtherSequence"
       ],
       "parameters": [
-        "OtherSequence",
-        "by: (Self.Element, OtherSequence.Element) throws -> Bool"
+        "Otherswift.sequence",
+        "by: (Self.Element, Otherswift.sequence.Element) throws -> swift.bool"
       ],
       "throws": true,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1233,7 +1233,7 @@
         "with: PossiblePrefix"
       ],
       "throws": false,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": true,
       "is_static": false,
       "is_constructor": false,
@@ -1246,10 +1246,10 @@
       ],
       "parameters": [
         "with: PossiblePrefix",
-        "by: (Self.Element, PossiblePrefix.Element) throws -> Bool"
+        "by: (Self.Element, PossiblePrefix.Element) throws -> swift.bool"
       ],
       "throws": true,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1261,10 +1261,10 @@
         "OtherSequence"
       ],
       "parameters": [
-        "OtherSequence"
+        "Otherswift.sequence"
       ],
       "throws": false,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": true,
       "is_static": false,
       "is_constructor": false,
@@ -1276,11 +1276,11 @@
         "OtherSequence"
       ],
       "parameters": [
-        "OtherSequence",
-        "by: (Self.Element, Self.Element) throws -> Bool"
+        "Otherswift.sequence",
+        "by: (Self.Element, Self.Element) throws -> swift.bool"
       ],
       "throws": true,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1290,10 +1290,10 @@
       "name": "index",
       "type_parameters": [],
       "parameters": [
-        "after: Int"
+        "after: swift.int"
       ],
       "throws": false,
-      "return_type": "Int",
+      "return_type": "swift.int",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1303,7 +1303,7 @@
       "name": "formIndex",
       "type_parameters": [],
       "parameters": [
-        "after: inout Int"
+        "after: inout swift.int"
       ],
       "throws": false,
       "return_type": "void",
@@ -1316,10 +1316,10 @@
       "name": "index",
       "type_parameters": [],
       "parameters": [
-        "before: Int"
+        "before: swift.int"
       ],
       "throws": false,
-      "return_type": "Int",
+      "return_type": "swift.int",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1329,7 +1329,7 @@
       "name": "formIndex",
       "type_parameters": [],
       "parameters": [
-        "before: inout Int"
+        "before: inout swift.int"
       ],
       "throws": false,
       "return_type": "void",
@@ -1342,11 +1342,11 @@
       "name": "index",
       "type_parameters": [],
       "parameters": [
-        "Int",
-        "offsetBy: Int"
+        "swift.int",
+        "offsetBy: swift.int"
       ],
       "throws": false,
-      "return_type": "Int",
+      "return_type": "swift.int",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1357,7 +1357,7 @@
       "type_parameters": [],
       "parameters": [
         "inout Self.Index",
-        "offsetBy: Int"
+        "offsetBy: swift.int"
       ],
       "throws": false,
       "return_type": "void",
@@ -1370,12 +1370,12 @@
       "name": "index",
       "type_parameters": [],
       "parameters": [
-        "Int",
-        "offsetBy: Int",
-        "limitedBy: Int"
+        "swift.int",
+        "offsetBy: swift.int",
+        "limitedBy: swift.int"
       ],
       "throws": false,
-      "return_type": "Int?",
+      "return_type": "swift.int?",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1386,11 +1386,11 @@
       "type_parameters": [],
       "parameters": [
         "inout Self.Index",
-        "offsetBy: Int",
+        "offsetBy: swift.int",
         "limitedBy: Self.Index"
       ],
       "throws": false,
-      "return_type": "Bool",
+      "return_type": "swift.bool",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1400,11 +1400,11 @@
       "name": "distance",
       "type_parameters": [],
       "parameters": [
-        "from: Int",
-        "to: Int"
+        "from: swift.int",
+        "to: swift.int"
       ],
       "throws": false,
-      "return_type": "Int",
+      "return_type": "swift.int",
       "conditional": false,
       "is_static": false,
       "is_constructor": false,
@@ -1416,7 +1416,7 @@
         "R"
       ],
       "parameters": [
-        "(UnsafeBufferPointer<Element>) throws -> R"
+        "(swift.unsafebufferpointer<Element>) throws -> R"
       ],
       "throws": true,
       "return_type": "R",
@@ -1431,7 +1431,7 @@
         "R"
       ],
       "parameters": [
-        "(inout UnsafeMutableBufferPointer<Element>) throws -> R"
+        "(inout swift.unsafemutablebufferpointer<Element>) throws -> R"
       ],
       "throws": true,
       "return_type": "R",
@@ -1446,7 +1446,7 @@
         "R"
       ],
       "parameters": [
-        "(UnsafeRawBufferPointer) throws -> R"
+        "(swift.unsaferawbufferpointer) throws -> R"
       ],
       "throws": true,
       "return_type": "R",
@@ -1461,7 +1461,7 @@
         "R"
       ],
       "parameters": [
-        "(UnsafeMutableRawBufferPointer) throws -> R"
+        "(swift.unsafemutablerawbufferpointer) throws -> R"
       ],
       "throws": true,
       "return_type": "R",
@@ -1476,7 +1476,7 @@
         "R"
       ],
       "parameters": [
-        "(UnsafeBufferPointer<Element>) throws -> R"
+        "(swift.unsafebufferpointer<Element>) throws -> R"
       ],
       "throws": true,
       "return_type": "R?",
@@ -1491,7 +1491,7 @@
         "R"
       ],
       "parameters": [
-        "(inout UnsafeMutableBufferPointer<Element>) throws -> R"
+        "(inout swift.unsafemutablebufferpointer<Element>) throws -> R"
       ],
       "throws": true,
       "return_type": "R?",
@@ -1504,7 +1504,7 @@
       "name": "encode",
       "type_parameters": [],
       "parameters": [
-        "to: Encoder"
+        "to: swift.encoder"
       ],
       "throws": true,
       "return_type": "void",
@@ -1517,7 +1517,7 @@
       "name": "encode",
       "type_parameters": [],
       "parameters": [
-        "to: Encoder",
+        "to: swift.encoder",
         "configuration: Element.EncodingConfiguration"
       ],
       "throws": true,
@@ -1531,7 +1531,7 @@
       "name": "hash",
       "type_parameters": [],
       "parameters": [
-        "into: inout Hasher"
+        "into: inout swift.hasher"
       ],
       "throws": false,
       "return_type": "void",
@@ -1588,7 +1588,7 @@
       "type_parameters": [],
       "parameters": [
         "repeating: Element",
-        "count: Int"
+        "count: swift.int"
       ],
       "throws": false,
       "return_type": "void",
@@ -1601,8 +1601,8 @@
       "name": "init",
       "type_parameters": [],
       "parameters": [
-        "unsafeUninitializedCapacity: Int",
-        "initializingWith: (inout UnsafeMutableBufferPointer<Element>, inout Int) throws -> Void"
+        "unsafeUninitializedCapacity: swift.int",
+        "initializingWith: (inout swift.unsafemutablebufferpointer<Element>, inout swift.int) throws -> swift.void"
       ],
       "throws": true,
       "return_type": "void",
@@ -1615,7 +1615,7 @@
       "name": "init",
       "type_parameters": [],
       "parameters": [
-        "from: Decoder"
+        "from: swift.decoder"
       ],
       "throws": true,
       "return_type": "void",
@@ -1628,7 +1628,7 @@
       "name": "init",
       "type_parameters": [],
       "parameters": [
-        "from: Decoder",
+        "from: swift.decoder",
         "configuration: Element.DecodingConfiguration"
       ],
       "throws": true,
@@ -1642,7 +1642,7 @@
       "name": "init",
       "type_parameters": [],
       "parameters": [
-        "MLDataColumn<Element>"
+        "CreateML.MLDataColumn<Element>"
       ],
       "throws": false,
       "return_type": "void",
@@ -1655,7 +1655,7 @@
       "name": "init",
       "type_parameters": [],
       "parameters": [
-        "MLUntypedColumn"
+        "CreateML.MLUntypedColumn"
       ],
       "throws": false,
       "return_type": "void",
@@ -1668,7 +1668,7 @@
       "name": "init?",
       "type_parameters": [],
       "parameters": [
-        "from: MLDataValue"
+        "from: CreateML.MLDataValue"
       ],
       "throws": false,
       "return_type": "void",
@@ -1694,21 +1694,21 @@
   "fields": [
     {
       "name": "isEmpty",
-      "type": "Bool",
+      "type": "swift.bool",
       "conditional": false,
       "is_static": false,
       "access_mod": "public"
     },
     {
       "name": "count",
-      "type": "Int",
+      "type": "swift.int",
       "conditional": false,
       "is_static": false,
       "access_mod": "public"
     },
     {
       "name": "capacity",
-      "type": "Int",
+      "type": "swift.int",
       "conditional": false,
       "is_static": false,
       "access_mod": "public"
@@ -1729,70 +1729,70 @@
     },
     {
       "name": "lazy",
-      "type": "LazySequence<Self>",
+      "type": "swift.lazysequence<Self>",
       "conditional": false,
       "is_static": false,
       "access_mod": "public"
     },
     {
       "name": "underestimatedCount",
-      "type": "Int",
+      "type": "swift.int",
       "conditional": false,
       "is_static": false,
       "access_mod": "public"
     },
     {
       "name": "startIndex",
-      "type": "Int",
+      "type": "swift.int",
       "conditional": false,
       "is_static": false,
       "access_mod": "public"
     },
     {
       "name": "endIndex",
-      "type": "Int",
+      "type": "swift.int",
       "conditional": false,
       "is_static": false,
       "access_mod": "public"
     },
     {
       "name": "description",
-      "type": "String",
+      "type": "swift.string",
       "conditional": false,
       "is_static": false,
       "access_mod": "public"
     },
     {
       "name": "debugDescription",
-      "type": "String",
+      "type": "swift.string",
       "conditional": false,
       "is_static": false,
       "access_mod": "public"
     },
     {
       "name": "customMirror",
-      "type": "Mirror",
+      "type": "swift.mirror",
       "conditional": false,
       "is_static": false,
       "access_mod": "public"
     },
     {
       "name": "dataValue",
-      "type": "MLDataValue",
+      "type": "CreateML.MLDataValue",
       "conditional": true,
       "is_static": false,
       "access_mod": "public"
     },
     {
       "name": "dataValueType",
-      "type": "MLDataValue.ValueType",
+      "type": "CreateML.MLDataValue.CreateML.MLDataValue.ValueType",
       "conditional": true,
       "is_static": true,
       "access_mod": "public"
     },
     {
       "name": "hashValue",
-      "type": "Int",
+      "type": "swift.int",
       "conditional": true,
       "is_static": false,
       "access_mod": "public"
